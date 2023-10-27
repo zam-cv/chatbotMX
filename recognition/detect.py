@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
 
-faceClassif = cv2.CascadeClassifier('recognition\haarcascade_eye.xml')
+faceClassif = cv2.CascadeClassifier('recognition\cascade2.xml')
 
-image = cv2.imread('recognition\img.jpg')
+image = cv2.imread('recognition\img2.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 faces = faceClassif.detectMultiScale(gray,
