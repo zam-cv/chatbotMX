@@ -20,11 +20,11 @@ function preview() {
     <div className="flex justify-center items-center flex-col">
       <div className="text-2xl font-bold mb-10">Bienvenido a ChatBot MX</div>
       <div className="grid grid-rows-1 grid-cols-3 gap-10 mb-10">
-        <Feature title="Estadísticas" content="..." />
-        <Feature title="Imagenes" content="..." />
-        <Feature title="Noticias" content="..." />
+        <Feature title="Estadísticas" content="Contenido" />
+        <Feature title="Imagenes" content="Contenido" />
+        <Feature title="Noticias" content="Contenido" />
       </div>
-      <div className="text-2xl font-bold mb-10">Examples</div>
+      <div className="text-2xl font-bold mb-10">Ejemplos</div>
       <div className="grid grid-cols-1 gap-10">
         <Example content="¿.......................?" />
         <Example content="¿.......................?" />
