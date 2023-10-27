@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { useState } from "react";
+import Input from "./components/Input";
+import Chat from "./components/Chat";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [init, setInit] = useState(true);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app h-screen w-screen">
+      <header className="p-5 bg-pink-600 m">
+        <h1 className="text-3xl text-center text-white font-bold">
+          ChatBot MX
+        </h1>
+      </header>
+      <div className="content">
+        <div className="chat bg-slate-200 p-10">
+          <Chat init={init} />
+        </div>
+        <div className="input">
+          <Input />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
