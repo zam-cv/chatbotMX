@@ -7,9 +7,9 @@ function App() {
   const [init, setInit] = useState(false);
 
   return (
-    <div className="app h-screen w-screen">
-      <header className="p-5 bg-pink-600 m">
-        <h1 className="text-3xl text-center text-white font-bold">
+    <div className="app h-[calc(100dvh)]">
+      <header className="p-3 bg-pink-600">
+        <h1 className="text-xl text-center text-white font-bold">
           ChatBot MX
         </h1>
       </header>
