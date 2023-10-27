@@ -1,4 +1,4 @@
-export default function Input() {
+export default function Chat() {
   return (
     <div></div>
   )

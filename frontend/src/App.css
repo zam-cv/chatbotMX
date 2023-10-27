@@ -1,0 +1,9 @@
+div.app {
+  display: grid;
+  grid-template: auto 1fr / 1fr;
+}
+
+div.content {
+    display: grid;
+    grid-template: 90% 10% / 1fr;
+}
