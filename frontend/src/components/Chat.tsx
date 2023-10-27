@@ -53,7 +53,7 @@ export default function Chat({ init }: { init: boolean }) {
   }
 
   return (
-    <div>
+    <div className="md:w-[100%] lg:w-[70%] m-auto">
       <div className="flex flex-col gap-5">
         <Message
           content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
