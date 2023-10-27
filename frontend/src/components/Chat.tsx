@@ -3,7 +3,7 @@ function Example({ content }: { content: String }) {
     <div className="bg-slate-400 p-5 rounded-md">
       <div>{content}</div>
     </div>
-  )
+  );
 }
 
 function Feature({ title, content }: { title: string; content: string }) {
@@ -34,10 +34,36 @@ function preview() {
   );
 }
 
+export function Message({ content, type }: { content: String; type: String }) {
+  const isBot = type === "bot";
+  const align = isBot ? "justify-end" : "justify-start";
+
+  return (
+    <div className={"flex " + align} >
+      <div className="bg-slate-400 p-5 rounded-md">
+        <div>{content}</div>
+      </div>
+    </div>
+  );
+}
+
 export default function Chat({ init }: { init: boolean }) {
   if (init) {
     return preview();
   }
 
-  return <div className="content-center"></div>;
+  return (
+    <div>
+      <div className="flex flex-col gap-5">
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="bot"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="user"
+        />
+      </div>
+    </div>
+  );
 }

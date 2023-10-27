@@ -4,7 +4,7 @@ import Input from "./components/Input";
 import Chat from "./components/Chat";
 
 function App() {
-  const [init, setInit] = useState(true);
+  const [init, setInit] = useState(false);
 
   return (
     <div className="app h-screen w-screen">
