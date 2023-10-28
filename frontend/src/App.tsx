@@ -2,6 +2,7 @@ import "./App.css";
 import { useState, useRef, useEffect } from "react";
 import Input from "./components/Input";
 import Chat from "./components/Chat";
+import axios from "axios";
 
 export interface MessageType {
   content: string;
@@ -24,14 +25,22 @@ function App() {
 
   const sendMessage = () => {
     if (content !== "") {
-      console.log(content);
       setHistory((prev) => [...prev, { content, type: "user" }]);
-      setContent("");
-      setHistory((prev) => [...prev, { content: "Hola", type: "bot" }]);
 
       if (inputRef.current) {
         inputRef.current.textContent = "";
       }
+
+      axios
+        .post(`${import.meta.env.VITE_APP_HOST_SERVER}/api`, { input: content })
+        .then(({ request }) => {
+          setContent("");
+          const json = JSON.parse(request.response);
+          setHistory((prev) => [
+            ...prev,
+            { content: json.response.content, type: "bot" },
+          ]);
+        });
     }
   };
 
