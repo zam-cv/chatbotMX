@@ -96,7 +96,7 @@ function App() {
 
   return (
     <div className="app h-[calc(100dvh)]">
-      <header className="p-3 bg-pink-600">
+      <header className="p-3" style={{ backgroundColor: "#e10298" }}>
         <h1 className="text-xl text-center text-white font-bold">ChatBot MX</h1>
       </header>
       <div
