@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+La marca de servicios superiores y sinceros de BYD se estableció en el año 2006, en que todas las personas post-venta de BYD Auto manifiestan el valor de servicios de “DILIGENCIA DEBIDA Y CORAZÓN SINCERO”.ln
+        Siempre nos dedicamos a brindar servicios de post-venta de supremo nivel para usuarios de BYD Auto y sus vehículos. Y nos confiamos firmemente que las técnicas magistrales de servicios provienen de especialidad y diligencia, y las actitudes sinceras de servicios se basan en responsabilidad e intención.
+=======
 Una vez abierta cualquier puerta del
 vehículo en estado antirrobo, el sistema
 emitirá el sonido de alarma y parpadeará el
@@ -37,3 +41,4 @@ Luz indicadora antirrobo
 En el estado de configuración antirrobo, la
 luz indicadora antirrobo siempre está
 encendido durante 10 segundos.
+>>>>>>> bfe207afcf78592b47fa46842eb8ee0720595e0f
