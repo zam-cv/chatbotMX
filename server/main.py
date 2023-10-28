@@ -56,8 +56,19 @@ def api():
             for prediction in predictions:
                 tags.append(prediction["tagName"])
 
-    childrens = json.load(open("../assets/data/tang.json"))
-    data = search(user_input, childrens, openai)
+    # childrens = json.load(open("../assets/data/tang.json"))
+    childrens = json.load(open("../assets/data/all.json"))
+    sections = [
+        { "file": "tang-ev.pdf", "content": childrens[1]["childrens"] },
+        { "file": "han-ev.pdf", "content": childrens[0]["childrens"] },
+        { "file": "yuan-plus-ev.pdf", "content": childrens[2]["childrens"] },
+    ]
+
+    data1 = search(user_input, sections[0]["content"], openai, sections[0]["file"])
+    data2 = search(user_input, sections[1]["content"], openai, sections[1]["file"])
+    data3 = search(user_input, sections[2]["content"], openai, sections[2]["file"])
+
+    data = data1 + data2 + data3
 
     if id not in memory:
         memory[id] = []

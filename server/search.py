@@ -25,28 +25,31 @@ def verifySub(question, subs, openai):
     subs_indices = response["choices"][0]["message"].content.split(",")
     return [int(sub.strip()) for sub in subs_indices if sub.strip().isdigit()]
 
-def search(question, childrens, openai):
+def search(question, childrens, openai, file):
     subs = [child["sub"] for child in childrens if "sub" in child]
     selected_indices = verifySub(question, ", ".join(subs), openai)
 
     data = []
     for i in selected_indices:
         child = childrens[i]
-        if "keywords" in child:
-            info = readPDF("../assets/pdfs/" + file, *child["content"])
-            if info:
-                response = openai.ChatCompletion.create(
-                    model="gpt-4",
-                    messages=[
-                        {"role": "user", "content": description_content},
-                        {"role": "user", "content": "La siguiente información habla del modelo tang-ev: " + info},
-                        {"role": "user", "content": question}
-                    ]
-                )
-                data.append(response["choices"][0]["message"].content)
+        if "content" in child:
+            try:
+                info = readPDF("../assets/pdfs/" + file, *child["content"])
+                file_without_ext = file.split(".")[0]
+
+                if info:
+                    response = openai.ChatCompletion.create(
+                        model="gpt-4",
+                        messages=[
+                            {"role": "user", "content": description_content},
+                            {"role": "user", "content": "La siguiente información habla del modelo " +  file_without_ext + ": " + info},
+                            {"role": "user", "content": question}
+                        ]
+                    )
+                    data.append(response["choices"][0]["message"].content)
+            except:
+                pass
         else:
-            data.extend(search(question, child.get("childrens", []), openai))
+            data.extend(search(question, child.get("childrens", []), openai, file))
 
     return data
-
-file = "tang-ev.pdf"
