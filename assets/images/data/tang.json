@@ -1,4 +1,38 @@
 [
+<<<<<<< HEAD
+    {
+        "sub":"Diligencia debida y corazón sincero",
+        "childrens": [{
+        "sub":"Servicios superiores y sinceros",
+        "keywords" : ["BYD", "Servicios superiores", "Sinceros", "Post-venta", "Diligencia", "Corazón sincero", "Supremo nivel", "Usuarios", "Vehículos", "Especialidad"],
+        "content":"La marca de servicios superiores y sinceros de BYD se estableció en el año 2006, en que todas las personas post-venta de BYD Auto manifiestan el valor de servicios de “DILIGENCIA DEBIDA Y CORAZÓN SINCERO”.ln\n        Siempre nos dedicamos a brindar servicios de post-venta de supremo nivel para usuarios de BYD Auto y sus vehículos. Y nos confiamos firmemente que las técnicas magistrales de servicios provienen de especialidad y diligencia, y las actitudes sinceras de servicios se basan en responsabilidad e intención."
+    }]},
+    {
+        "sub":"Prologo",
+        "keywords":["BYD Tang EV", "Manual", "Piezas de repuesto", "Garantía", "Licencia del vehículo", "Consejos", "Atención", "Advertencia", "Seguridad personal", "Reciclaje de baterías"],
+        "content":"Gracias por su opción del modelo BYD Tang EV. ln
+Para ayudarle a usar y mantener los vehículos de BYD Tang EV correctamente, lea todo el contenido de este manual detenidamente antes del uso y guárdelo cuidadosamente después de la lectura. ln
+Nota especial: BYD Automobile Industry Co., Ltd. recomienda que seleccione piezas de repuesto genuinas y use, mantenga y repare el vehículo correctamente de acuerdo con los requisitos del manual del usuario. El reemplazo y la modificación de vehículos con repuestos no originales afectarán el rendimiento del vehículo, especialmente la seguridad y durabilidad. Los daños y problemas de rendimiento del vehículo causados por esto no estarán cubiertos por la garantía. Además de la modificación del vehículo, puede violar las leyes y reglamentos nacionales y los reglamentos del gobierno local. ln
+Gracias por elegir BYD Tang EV, y agradecemos sus valiosos comentarios y sugerencias. ln
+Con el fin de garantizar un mejor servicio para usted, asegúrese de proporcionar información de contacto precisa. Si hay algún cambio, comuníquese con un taller de servicio autorizada de BYD para actualizar en el sistema. Al mismo tiempo, preste atención a las leyes y reglamentos nacionales relevantes y a las políticas y reglamentos locales. Obtenga la licencia del vehículo lo antes posible, de lo contrario puede existir el riesgo de que la licencia no se pueda registrar. ln
+En este manual, donde hay “consejos”, “precauciones” y “advertencias”, debe seguir cuidadosamente las instrucciones para evitar la posibilidad de lesiones o daños. La indicación y el método de uso del tipo de aviso son los siguientes: ln
+Consejos ln
+Deben ser cumplidos para facilitar comprobación y mantenimiento. ln
+
+Atención ln
+Deben ser cumplidos para evitar daños al vehículo. ln
+
+Advertencia ln
+Deben ser cumplidos para proteger la seguridad personal. ln
+
+Los signos de seguridad mostrados en la figura izquierda significan “no se puede” o “se prohíbe”. ln
+El propósito de este manual es ayudarlo a usar el producto correctamente, y no representa ninguna descripción de la configuración del producto y la versión del software. ln
+Para la configuración del producto y la versión del software, consulte el contrato correspondiente con este producto (si lo hay) o consulte al vendedor que le vendió el producto. ln
+Para consultar la información sobre los puntos de reciclaje de baterías de energía: inicie sesión https:\/\/www.byd.com\/cn\/socialresponsibility\/ batteryrecycle.html ln
+Para obtener instrucciones detalladas sobre el producto, preste atención a ""difenhui"" en wechat o escanee el siguiente código QR del programa pequeño para realizar consultas."
+    },
+    {
+=======
 {
   "sub":"Diligencia debida y corazón sincero",
   "childrens": [{
@@ -10,6 +44,7 @@
   "keywords":["BYD Tang EV", "Manual", "Piezas de repuesto", "Garantía", "Licencia del vehículo", "Consejos", "Atención", "Advertencia", "Seguridad personal", "Reciclaje de baterías"],
   "content":[2,2]},
 {
+>>>>>>> bfe207afcf78592b47fa46842eb8ee0720595e0f
 "sub":"Descripción general del modelo BYD Tang EV",
 "keywords":["BYD Tang EV", "Vehículo eléctrico puro", "Carrocería", "Paquete de baterías", "Sonido", "Batería de fosfato de hierro y litio", "Seguridad del sistema", "Unidad de gestión de batería", "Motor a velocidad alta", "Rendimiento de seguridad"],
 "content":[4,4]},

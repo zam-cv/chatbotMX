@@ -32,6 +32,5 @@ function writeFile(path, data) {
   content = content.replace(/\0/g, "\\0");
   content = content.replace(/\x08/g, "\\b");
 
-
   await writeFile("output.txt", content);
 })();
