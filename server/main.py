@@ -1,12 +1,18 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from search import search
+from recognition.system import predict
 import openai
 import json
+import base64
+from PIL import Image
+from io import BytesIO
+import uuid
+import os
 
+myuuid = uuid.uuid4()
 app = Flask(__name__)
 CORS(app)
-
 
 openai.api_key = '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'
 
@@ -33,6 +39,18 @@ def api():
     data = request.json
     id = data.get('id', '')
     user_input = data.get('input', '')
+    image = data.get('image', '')
+
+    if image != '':
+        image_data = base64.b64decode(image)
+
+        image_directory = os.path.join(os.getcwd(), "storage")
+        image_path = os.path.join(image_directory, f"{myuuid}.jpg")
+
+        with Image.open(BytesIO(image_data)) as img:
+            img.convert('RGB').save("../storage/" + str(myuuid) + ".jpg", 'JPEG')
+            # predictions = predict.predict("../../../storage/" + str(myuuid) + ".jpg")
+            # print(predictions)
 
     response = openai.ChatCompletion.create(
           model="gpt-3.5-turbo-0613",
@@ -47,8 +65,6 @@ def api():
     if is_auto == "True":
         childrens = json.load(open("../assets/data/tang.json"))
         data = search(user_input, childrens, openai)
-        print("DATA")
-        print(data)
 
         if id not in memory:
             memory[id] = []

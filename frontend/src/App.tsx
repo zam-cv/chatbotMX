@@ -2,6 +2,7 @@ import "./App.css";
 import { useState, useRef, useEffect } from "react";
 import Input from "./components/Input";
 import Chat from "./components/Chat";
+import Assets from "./components/Assets";
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 
@@ -15,9 +16,14 @@ function App() {
   const [init, setInit] = useState(true);
   const [history, setHistory] = useState<MessageType[]>([]);
   const [content, setContent] = useState("");
+  const [isLoad, setIsLoad] = useState(false);
+
   const inputRef = useRef<HTMLDivElement>(null);
   const historyRef = useRef<HTMLDivElement>(null);
   const historyParentRef = useRef<HTMLDivElement>(null);
+
+  const fileRef = useRef<HTMLInputElement>(null);
+  const imgRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
     axios
@@ -31,7 +37,7 @@ function App() {
 
         setHistory(json.response);
       });
-  }, [id])
+  }, [id]);
 
   useEffect(() => {
     if (!id) {
@@ -77,9 +83,28 @@ function App() {
         inputRef.current.textContent = "";
       }
 
+      let image = ""
+
+      if (imgRef.current) {
+        const canvas = document.createElement("canvas");
+        const ctx = canvas.getContext("2d");
+
+        if (!ctx) return;
+
+        canvas.width = imgRef.current.width;
+        canvas.height = imgRef.current.height;
+
+        ctx.drawImage(imgRef.current, 0, 0);
+
+        const data = canvas.toDataURL("image/png");
+        const base64Image = data.split(',')[1];
+        image = base64Image;
+      }
+
       axios
         .post(`${import.meta.env.VITE_APP_HOST_SERVER}/api/input`, {
           input: content,
+          image,
           id,
         })
         .then(({ request }) => {
@@ -90,6 +115,7 @@ function App() {
             ...prev,
             { content: json.response.content, role: "bot" },
           ]);
+          setIsLoad(false);
         });
     }
   };
@@ -97,7 +123,9 @@ function App() {
   return (
     <div className="app h-[calc(100dvh)]">
       <header className="p-3" style={{ backgroundColor: "#e10298" }}>
-        <h1 className="text-xl text-center text-white font-bold">ChatBot MX</h1>
+        <h1 className="text-2xl text-center text-white font-bold">
+          ChatBot MX
+        </h1>
       </header>
       <div
         ref={historyParentRef}
@@ -105,6 +133,9 @@ function App() {
       >
         <div ref={historyRef} className="chat overflow-auto p-5">
           <Chat init={init} history={history} />
+        </div>
+        <div>
+          <Assets />
         </div>
         <div className="input">
           <Input
@@ -116,6 +147,10 @@ function App() {
             setHistory={setHistory}
             setInit={setInit}
             id={id}
+            fileRef={fileRef}
+            imgRef={imgRef}
+            isLoad={isLoad}
+            setIsLoad={setIsLoad}
           />
         </div>
       </div>
