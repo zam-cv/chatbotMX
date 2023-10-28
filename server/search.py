@@ -34,6 +34,8 @@ def search(question, childrens, openai):
         child = childrens[i]
         if "keywords" in child:
             info = readPDF("../assets/pdfs/" + file, *child["content"])
+            info2 = readPDF("../assets/pdfs/" + file2, *child["content"])
+            info3 = readPDF("../assets/pdfs/" + file3, *child["content"])
             if info:
                 response = openai.ChatCompletion.create(
                     model="gpt-4",
@@ -44,9 +46,31 @@ def search(question, childrens, openai):
                     ]
                 )
                 data.append(response["choices"][0]["message"].content)
+            elif info2:
+                response = openai.ChatCompletion.create(
+                    model="gpt-4",
+                    messages=[
+                        {"role": "user", "content": description_content},
+                        {"role": "user", "content": "La siguiente información habla del modelo han-ev: " + info},
+                        {"role": "user", "content": question}
+                    ]
+                )
+                data.append(response["choices"][0]["message"].content)
+            elif info3:
+                response = openai.ChatCompletion.create(
+                    model="gpt-4",
+                    messages=[
+                        {"role": "user", "content": description_content},
+                        {"role": "user", "content": "La siguiente información habla del modelo yuan-plus-ev: " + info},
+                        {"role": "user", "content": question}
+                    ]
+                )
+                data.append(response["choices"][0]["message"].content)
         else:
             data.extend(search(question, child.get("childrens", []), openai))
 
     return data
 
 file = "tang-ev.pdf"
+file2 = "han-ev.pdf"
+file3 = "yuan-plus-ev.pdf"

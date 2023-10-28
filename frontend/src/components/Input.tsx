@@ -19,6 +19,10 @@ export default function Input({
   setHistory,
   setInit,
   id,
+  fileRef,
+  imgRef,
+  isLoad,
+  setIsLoad
 }: {
   init: boolean;
   setContent: React.Dispatch<React.SetStateAction<string>>;
@@ -28,6 +32,10 @@ export default function Input({
   setHistory: React.Dispatch<React.SetStateAction<MessageType[]>>;
   setInit: React.Dispatch<React.SetStateAction<boolean>>;
   id: null | string;
+  fileRef: React.MutableRefObject<HTMLInputElement | null>;
+  imgRef: React.MutableRefObject<HTMLImageElement | null>;
+  isLoad: boolean;
+  setIsLoad: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
   const [transcript, setTranscript] = useState("");
   const [listening, setListening] = useState(false);
@@ -90,6 +98,28 @@ export default function Input({
     setTranscript("");
   };
 
+  const loadImage = () => {
+    if (fileRef.current) {
+      fileRef.current.click();
+
+      fileRef.current.onchange = () => {
+        if (fileRef.current && imgRef.current) {
+          const file = fileRef.current.files?.item(0);
+          if (!file) return;
+
+          const reader = new FileReader();
+
+          reader.addEventListener("load", () => {
+            imgRef.current!.src = reader.result as string;
+            setIsLoad(true);
+          });
+
+          reader.readAsDataURL(file);
+        }
+      };
+    }
+  };
+
   const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
     if (event.code === "Enter") {
       sendMessage();
@@ -127,7 +157,10 @@ export default function Input({
             </svg>
           </span>
         ) : null}
-        <span className="bg-slate-200 p-3 h-fit cursor-pointer">
+        <span
+          onClick={loadImage}
+          className={`bg-slate-200 p-3 h-fit cursor-pointer ${isLoad ? "text-blue-500" : ""}`}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -142,6 +175,8 @@ export default function Input({
               d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
             />
           </svg>
+          <input ref={fileRef} type="file" name="image" className="hidden" />
+          <img ref={imgRef} className="hidden" />
         </span>
         <div
           ref={inputRef}
