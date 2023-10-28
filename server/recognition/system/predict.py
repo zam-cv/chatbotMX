@@ -2,11 +2,10 @@ import sys
 import tensorflow as tf
 import numpy as np
 from PIL import Image
-# from object_detection import ObjectDetection
 from recognition.system.object_detection import ObjectDetection
 
-MODEL_FILENAME = 'model.pb'
-LABELS_FILENAME = 'labels.txt'
+MODEL_FILENAME = 'recognition/model.pb'
+LABELS_FILENAME = 'recognition/labels.txt'
 
 class TFObjectDetection(ObjectDetection):    
     def __init__(self, graph_def, labels):
@@ -33,7 +32,7 @@ def predict(image_filename):
         labels = [label.strip() for label in f.readlines()]
 
     od_model = TFObjectDetection(graph_def, labels)
-    image = Image.open(image_filename)
-    
-    predictions = od_model.predict_image(image)
-    return predictions
+
+    with Image.open(image_filename) as image:
+            predictions = od_model.predict_image(image)
+            return predictions

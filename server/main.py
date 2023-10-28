@@ -16,14 +16,14 @@ CORS(app)
 
 openai.api_key = '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'
 
-verify = "tienes que verificar si en la conversacion se habla sobre coches, especificamente de los modelos han, tang, yuan de BYD, si es asi, me tienes que devolver la palabra 'True', de ser lo contrario devuelve 'False'"
-context = """Lo siguiente es una conversación con un chatbot. El asistente es servicial, creativo, inteligente y muy amigable."""
+context = """Saludos, te presento tu función. Eres un chatbot denominado ChatbotMX, diseñado para optimizar la comunicación entre los clientes de Liverpool y BYD. Tu objetivo principal es simplificar tanto el proceso de preventa como el de postventa. Durante la preventa, si un cliente solicita una cita para una prueba de manejo, debes proporcionar una ubicación ficticia en un establecimiento de Liverpool dentro de México. Además, cuentas con acceso a tres manuales técnicos de los vehículos BYD disponibles en Liverpool. Si un cliente requiere información técnica, consulta estos manuales para resolver sus dudas. En la etapa de postventa, tu función es asistir a los clientes en comprender cualquier situación relacionada con su vehículo y las garantías asociadas."""
 memory = {}
+history = {}
 
 @app.route('/api/history', methods=['POST'])
-def history():
+def his():
     id = request.json.get('id', '')
-    return jsonify(response=memory.get(id, []))
+    return jsonify(response=history.get(id, []))
 
 @app.route('/api/session', methods=['POST'])
 def session():
@@ -31,6 +31,7 @@ def session():
     memory[id] = [
         {"role": "system", "content": context}
     ]
+    history[id] = []
     
     return jsonify(response="")
 
@@ -40,6 +41,7 @@ def api():
     id = data.get('id', '')
     user_input = data.get('input', '')
     image = data.get('image', '')
+    tags = []
 
     if image != '':
         image_data = base64.b64decode(image)
@@ -49,42 +51,40 @@ def api():
 
         with Image.open(BytesIO(image_data)) as img:
             img.convert('RGB').save("../storage/" + str(myuuid) + ".jpg", 'JPEG')
-            # predictions = predict.predict("../../../storage/" + str(myuuid) + ".jpg")
-            # print(predictions)
+            predictions = predict.predict("../storage/" + str(myuuid) + ".jpg")
+            
+            for prediction in predictions:
+                tags.append(prediction["tagName"])
+
+    childrens = json.load(open("../assets/data/tang.json"))
+    data = search(user_input, childrens, openai)
+
+    if id not in memory:
+        memory[id] = []
+
+    if id not in history:
+        history[id] = []
+
+    if len(tags) > 0:
+        print("TAGS")
+        memory[id].append({"role": "user", "content": "Simula que se te envia una imagen, ofrece detalles sobre ella con los siguientes tags: " + ", ".join(tags)})
+
+    memory[id].append(
+        {"role": "user", "content": "Considera la siguiente informacion para responder la pregunta del usuario: " + "\n".join(data)})
+    memory[id].append(
+        {"role": "user", "content": user_input})
+    history[id].append({"role": "user", "content": user_input})
 
     response = openai.ChatCompletion.create(
-          model="gpt-3.5-turbo-0613",
-          messages=[
-            {"role": "system", "content": verify},
-            {"role": "user", "content": user_input},
-          ]
-      )
+        model="gpt-4",
+        messages=memory[id]
+    )
 
-    is_auto = response["choices"][0]["message"].content
+    response_message = response["choices"][0]["message"]
+    memory[id].append({"role": "system", "content": response_message.content})
+    history[id].append({"role": "system", "content": response_message.content})
 
-    if is_auto == "True":
-        childrens = json.load(open("../assets/data/tang.json"))
-        data = search(user_input, childrens, openai)
-
-        if id not in memory:
-            memory[id] = []
-        
-        memory[id].append(
-            {"role": "system", "content": "Considera la siguiente informacion para responder la pregunta del usuari, la informacion proviene de un auto modelo tang: " + "\n".join(data)})
-        memory[id].append(
-            {"role": "user", "content": user_input})
-
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=memory[id]
-        )
-
-        response_message = response["choices"][0]["message"]
-        memory[id].append({"role": "system", "content": response_message.content})
-
-        return jsonify(response=response_message)
-    else:
-        return jsonify(response={ "content": "No puedo responder preguntas que no esten relacionadas con BYD" })    # return jsonify(response=response_message)
+    return jsonify(response=response_message)
 
 @app.route('/api/clear', methods=['POST'])
 def clear():
@@ -93,6 +93,7 @@ def clear():
     memory[id] = [
         {"role": "system", "content": context}
     ]
+    history[id] = []
 
     return jsonify(response="")
 

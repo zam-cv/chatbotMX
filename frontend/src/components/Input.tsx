@@ -22,7 +22,7 @@ export default function Input({
   fileRef,
   imgRef,
   isLoad,
-  setIsLoad
+  setIsLoad,
 }: {
   init: boolean;
   setContent: React.Dispatch<React.SetStateAction<string>>;
@@ -111,10 +111,10 @@ export default function Input({
 
           reader.addEventListener("load", () => {
             imgRef.current!.src = reader.result as string;
-            setIsLoad(true);
           });
 
           reader.readAsDataURL(file);
+          setIsLoad(true);
         }
       };
     }
@@ -159,7 +159,9 @@ export default function Input({
         ) : null}
         <span
           onClick={loadImage}
-          className={`bg-slate-200 p-3 h-fit cursor-pointer ${isLoad ? "text-blue-500" : ""}`}
+          className={`bg-slate-200 p-3 h-fit cursor-pointer ${
+            isLoad ? "text-blue-500" : ""
+          }`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
