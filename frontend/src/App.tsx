@@ -18,6 +18,12 @@ function App() {
   const historyParentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.textContent = content;
+    }
+  }, [content]);
+
+  useEffect(() => {
     if (historyRef.current && historyParentRef.current) {
       historyRef.current.scrollTo(0, historyRef.current.scrollHeight);
     }
@@ -58,6 +64,7 @@ function App() {
             setContent={setContent}
             sendMessage={sendMessage}
             inputRef={inputRef}
+            content={content}
           />
         </div>
       </div>
