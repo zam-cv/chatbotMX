@@ -1,117 +1,393 @@
 [
-{
-  "sub":"Diligencia debida y corazón sincero",
-  "childrens": [{
-  "sub":"Servicios superiores y sinceros",
-  "keywords" : ["BYD", "Servicios superiores", "Sinceros", "Post-venta", "Diligencia", "Corazón sincero", "Supremo nivel", "Usuarios", "Vehículos", "Especialidad"],
-  "content": [1,1]}]},
-{
-  "sub":"Prologo",
-  "keywords":["BYD Tang EV", "Manual", "Piezas de repuesto", "Garantía", "Licencia del vehículo", "Consejos", "Atención", "Advertencia", "Seguridad personal", "Reciclaje de baterías"],
-  "content":[2,2]},
-{
-"sub":"Descripción general del modelo BYD Tang EV",
-"keywords":["BYD Tang EV", "Vehículo eléctrico puro", "Carrocería", "Paquete de baterías", "Sonido", "Batería de fosfato de hierro y litio", "Seguridad del sistema", "Unidad de gestión de batería", "Motor a velocidad alta", "Rendimiento de seguridad"],
-"content":[4,4]},
-{
-"sub": "Seguridad",
-"content": "",
-"childrens": [
   {
-    "sub": "Cinturón de seguridad",
-    "content": "",
+    "sub": "Diligencia debida y corazón sincero",
     "childrens": [
       {
-      "sub":"Introducción de cinturones de seguridad",
-      "keywords":["Estudios", "Cinturones de seguridad", "Conducción", "Accidentes", "Lesiones", "Niños", "Función de bloqueo de emergencia (ELR)", "Seguridad", "Asiento", "Pretensión del cinturón de seguridad"],
-      "content":[18,18]},
-      {
-          "sub": "Uso del cinturón de seguridad",
-          "keywords":["Ajuste", "Cinturón de seguridad", "Posición", "Respaldo", "Hebilla", "Correa", "Ajustador de altura", "Desabrochar", "Sistema de alarma", "Conductor"],
-          "content": [19,22]}]
-  },
-  {
-"sub":"Airbag",
-"content":"",
-"childrens":[
-{
-  "sub":"Introducción de airbag",
-  "keywords":["Airbag", "Sistema de retención auxiliar", "Colisión", "Cinturón de seguridad", "Airbags frontales", "Airbags laterales", "Protección", "Fundas de asiento", "Luz de advertencia", "Autodiagnóstico"],
-  "content":[23,23]},
-  {
-  "sub":"Airbags para conductor y pasajero de la fila delantera",
-  "keywords":["Vehículo", "Airbags", "Conductor", "Pasajero", "Fila delantera", "ECU", "Sistema de airbags", "Impacto", "Conducción", "Activación"],
-  "content":[24,24]},
-  {
-  "sub":"Airbag lateral del asiento de la fila delantera",
-  "keywords":["vehículo", "airbag", "asiento", "impacto", "seguridad", "ocupante", "colisión", "cinturones", "agua", "choque"],
-  "content":[25,25]},
-  {
-"sub":"Airbag de cortina lateral",
-"keywords":["vehículo", "airbag", "cortina", "izquierdo", "derecho", "impacto", "protección", "lesión", "cinturones", "postura"],
-"content":[26,26]},
-  {
-"sub":"Condiciones para activar los airbags y precauciones",
-"keywords":["activar", "airbags", "factores", "colisión", "accidente", "sistema", "funcionará", "frontal", "choque", "cinturón"]
-,
-"content":[27,33],
-"childrens":[
-  {
-    "sub":"Circunstancia de despliegue del airbag",
-    "keywords":["zanja", "cabeza", "vehículo", "obstáculo", "piedra", "suelo", "pendiente", "costado", "golpeado", "vehículos"],
-    "content":[27,27]},
-  {
-    "sub":"Circunstancia de no desplegar el airbag",
-    "keywords":["columna", "cemento", "árbol", "objetos", "seguridad", "bolsa de aire", "camión", "vehículo", "vuelco", "colisión"]
-    ,
-    "content":[27,32]},
-  {
-    "sub":"Mantenimiento del airbag",
-    "keywords":["recomienda", "taller", "servicio", "autorizado", "airbag", "luz de advertencia", "accidente", "cubierta", "desmontarse", "desplegado", "cortinas de aire", "puerta", "superficie del asiento", "pilar A", "riel del techo", "moldura del pilar C"]
-    ,
-    "content":[33,33]}
-]}]},
-{
-    "sub":" Dispositivo de protección para niños",
-    "content":"",
-    "childrens":[
-      {
-        "sub":"Clasificación del dispositivo de protección para niños",
-        "keywords":["edad", "tamaño", "dispositivo", "protección", "niños", "cinturón de seguridad", "asiento", "utilice", "montar", "recomienda", "bolsa de aire", "cortina lateral", "instrucciones de montaje", "circulación", "parar", "arrodillarse", "frenado de emergencia", "lesión corporal"]
-        ,
-        "content":[34,34]},
-      {
-      "sub":"Montar dispositivo de protección para niños",
-      "keywords": ["instrucciones de montaje", "fabricante", "dispositivo de protección para niños", "asiento exterior", "fila trasera", "anclaje rígido ISOFIX", "varilla de fijación", "soporte de anclaje", "reposacabezas", "correa superior", "gancho", "tirante superior", "asiento del conductor", "restricción de niños", "airbag frontal", "empuje", "tire", "dispositivo de anclaje inferior", "cinturón de seguridad", "butaca de niños", "asientos de la fila delantera", "posiciones de asiento"]
-      ,
-      "content":[35,35]}
+        "sub": "Servicios superiores y sinceros",
+        "keywords": [
+          "BYD",
+          "Servicios superiores",
+          "Sinceros",
+          "Post-venta",
+          "Diligencia",
+          "Corazón sincero",
+          "Supremo nivel",
+          "Usuarios",
+          "Vehículos",
+          "Especialidad"
+        ],
+        "content": [1, 1]
+      }
     ]
   },
   {
-"sub":"Sistema antirrobo",
-"keywords":["puerta", "vehículo", "antirrobo", "sistema de configuración", "luz indicadora", "alarma", "entrada de llave inteligente", "llave inteligente válida", "micro interruptor", "control remoto", "arranque", "botón de inicio/parada", "modificar", "fallas", "estado de configuración"]
-,
-"content":[40,40]
-},
+    "sub": "Prologo",
+    "keywords": [
+      "BYD Tang EV",
+      "Manual",
+      "Piezas de repuesto",
+      "Garantía",
+      "Licencia del vehículo",
+      "Consejos",
+      "Atención",
+      "Advertencia",
+      "Seguridad personal",
+      "Reciclaje de baterías"
+    ],
+    "content": [2, 2]
+  },
   {
-    "sub":"Sistema de registro de datos de eventos de vehículo",
-    "keywords":["vehículo", "registro de datos", "eventos", "colisión", "delta-V longitudinal", "cambio en la velocidad", "componente longitudinal", "delta-V total", "delta-V longitudinal de registro máximo", "valor máximo", "eje X", "tiempo de alcanzar delta-V longitudinal de registro máximo", "tiempo desde el punto cero", "dirección de avance", "freno de servicio activado o apagado", "pedal de freno", "velocidad de vehículo", "velocidad de la rueda", "número de identificación del vehículo"]
-    ,
-    "content":[42,42]
+    "sub": "Descripción general del modelo BYD Tang EV",
+    "keywords": [
+      "BYD Tang EV",
+      "Vehículo eléctrico puro",
+      "Carrocería",
+      "Paquete de baterías",
+      "Sonido",
+      "Batería de fosfato de hierro y litio",
+      "Seguridad del sistema",
+      "Unidad de gestión de batería",
+      "Motor a velocidad alta",
+      "Rendimiento de seguridad"
+    ],
+    "content": [4, 4]
+  },
+  {
+    "sub": "Seguridad",
+    "content": "",
+    "childrens": [
+      {
+        "sub": "Cinturón de seguridad",
+        "content": "",
+        "childrens": [
+          {
+            "sub": "Introducción de cinturones de seguridad",
+            "keywords": [
+              "Estudios",
+              "Cinturones de seguridad",
+              "Conducción",
+              "Accidentes",
+              "Lesiones",
+              "Niños",
+              "Función de bloqueo de emergencia (ELR)",
+              "Seguridad",
+              "Asiento",
+              "Pretensión del cinturón de seguridad"
+            ],
+            "content": [18, 18]
+          },
+          {
+            "sub": "Uso del cinturón de seguridad",
+            "keywords": [
+              "Ajuste",
+              "Cinturón de seguridad",
+              "Posición",
+              "Respaldo",
+              "Hebilla",
+              "Correa",
+              "Ajustador de altura",
+              "Desabrochar",
+              "Sistema de alarma",
+              "Conductor"
+            ],
+            "content": [19, 22]
+          }
+        ]
+      },
+      {
+        "sub": "Airbag",
+        "content": "",
+        "childrens": [
+          {
+            "sub": "Introducción de airbag",
+            "keywords": [
+              "Airbag",
+              "Sistema de retención auxiliar",
+              "Colisión",
+              "Cinturón de seguridad",
+              "Airbags frontales",
+              "Airbags laterales",
+              "Protección",
+              "Fundas de asiento",
+              "Luz de advertencia",
+              "Autodiagnóstico"
+            ],
+            "content": [23, 23]
+          },
+          {
+            "sub": "Airbags para conductor y pasajero de la fila delantera",
+            "keywords": [
+              "Vehículo",
+              "Airbags",
+              "Conductor",
+              "Pasajero",
+              "Fila delantera",
+              "ECU",
+              "Sistema de airbags",
+              "Impacto",
+              "Conducción",
+              "Activación"
+            ],
+            "content": [24, 24]
+          },
+          {
+            "sub": "Airbag lateral del asiento de la fila delantera",
+            "keywords": [
+              "vehículo",
+              "airbag",
+              "asiento",
+              "impacto",
+              "seguridad",
+              "ocupante",
+              "colisión",
+              "cinturones",
+              "agua",
+              "choque"
+            ],
+            "content": [25, 25]
+          },
+          {
+            "sub": "Airbag de cortina lateral",
+            "keywords": [
+              "vehículo",
+              "airbag",
+              "cortina",
+              "izquierdo",
+              "derecho",
+              "impacto",
+              "protección",
+              "lesión",
+              "cinturones",
+              "postura"
+            ],
+            "content": [26, 26]
+          },
+          {
+            "sub": "Condiciones para activar los airbags y precauciones",
+            "keywords": [
+              "activar",
+              "airbags",
+              "factores",
+              "colisión",
+              "accidente",
+              "sistema",
+              "funcionará",
+              "frontal",
+              "choque",
+              "cinturón"
+            ],
+            "content": [27, 33],
+            "childrens": [
+              {
+                "sub": "Circunstancia de despliegue del airbag",
+                "keywords": [
+                  "zanja",
+                  "cabeza",
+                  "vehículo",
+                  "obstáculo",
+                  "piedra",
+                  "suelo",
+                  "pendiente",
+                  "costado",
+                  "golpeado",
+                  "vehículos"
+                ],
+                "content": [27, 27]
+              },
+              {
+                "sub": "Circunstancia de no desplegar el airbag",
+                "keywords": [
+                  "columna",
+                  "cemento",
+                  "árbol",
+                  "objetos",
+                  "seguridad",
+                  "bolsa de aire",
+                  "camión",
+                  "vehículo",
+                  "vuelco",
+                  "colisión"
+                ],
+                "content": [27, 32]
+              },
+              {
+                "sub": "Mantenimiento del airbag",
+                "keywords": [
+                  "recomienda",
+                  "taller",
+                  "servicio",
+                  "autorizado",
+                  "airbag",
+                  "luz de advertencia",
+                  "accidente",
+                  "cubierta",
+                  "desmontarse",
+                  "desplegado",
+                  "cortinas de aire",
+                  "puerta",
+                  "superficie del asiento",
+                  "pilar A",
+                  "riel del techo",
+                  "moldura del pilar C"
+                ],
+                "content": [33, 33]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sub": " Dispositivo de protección para niños",
+        "content": "",
+        "childrens": [
+          {
+            "sub": "Clasificación del dispositivo de protección para niños",
+            "keywords": [
+              "edad",
+              "tamaño",
+              "dispositivo",
+              "protección",
+              "niños",
+              "cinturón de seguridad",
+              "asiento",
+              "utilice",
+              "montar",
+              "recomienda",
+              "bolsa de aire",
+              "cortina lateral",
+              "instrucciones de montaje",
+              "circulación",
+              "parar",
+              "arrodillarse",
+              "frenado de emergencia",
+              "lesión corporal"
+            ],
+            "content": [34, 34]
+          },
+          {
+            "sub": "Montar dispositivo de protección para niños",
+            "keywords": [
+              "instrucciones de montaje",
+              "fabricante",
+              "dispositivo de protección para niños",
+              "asiento exterior",
+              "fila trasera",
+              "anclaje rígido ISOFIX",
+              "varilla de fijación",
+              "soporte de anclaje",
+              "reposacabezas",
+              "correa superior",
+              "gancho",
+              "tirante superior",
+              "asiento del conductor",
+              "restricción de niños",
+              "airbag frontal",
+              "empuje",
+              "tire",
+              "dispositivo de anclaje inferior",
+              "cinturón de seguridad",
+              "butaca de niños",
+              "asientos de la fila delantera",
+              "posiciones de asiento"
+            ],
+            "content": [35, 35]
+          }
+        ]
+      },
+      {
+        "sub": "Sistema antirrobo",
+        "keywords": [
+          "puerta",
+          "vehículo",
+          "antirrobo",
+          "sistema de configuración",
+          "luz indicadora",
+          "alarma",
+          "entrada de llave inteligente",
+          "llave inteligente válida",
+          "micro interruptor",
+          "control remoto",
+          "arranque",
+          "botón de inicio/parada",
+          "modificar",
+          "fallas",
+          "estado de configuración"
+        ],
+        "content": [40, 40]
+      },
+      {
+        "sub": "Sistema de registro de datos de eventos de vehículo",
+        "keywords": [
+          "vehículo",
+          "registro de datos",
+          "eventos",
+          "colisión",
+          "delta-V longitudinal",
+          "cambio en la velocidad",
+          "componente longitudinal",
+          "delta-V total",
+          "delta-V longitudinal de registro máximo",
+          "valor máximo",
+          "eje X",
+          "tiempo de alcanzar delta-V longitudinal de registro máximo",
+          "tiempo desde el punto cero",
+          "dirección de avance",
+          "freno de servicio activado o apagado",
+          "pedal de freno",
+          "velocidad de vehículo",
+          "velocidad de la rueda",
+          "número de identificación del vehículo"
+        ],
+        "content": [42, 42]
+      }
+    ]
+  },
+  {
+    "sub": "Tablero de instrumentos",
+    "childrens": [
+      {
+        "sub": "Instrumento combinado",
+        "keywords": [
+          "Vatímetro",
+          "Temperatura exterior",
+          "Hora",
+          "Velocímetro",
+          "Modo de trabajo ECO/SPORT",
+          "Odómetro",
+          "Velocidad Campo de práctica",
+          "Intensidad de retroalimentación",
+          "Información de conducción",
+          "Orientación",
+          "Medidor de electricidad"
+        ],
+        "content": [44, 44]
+      },
+      {
+        "sub": "Luz indicadora de instrumentos",
+        "keywords": [
+          "Vatímetro",
+          "Temperatura exterior",
+          "Hora",
+          "Velocímetro",
+          "Modo de trabajo ECO/SPORT",
+          "Odómetro",
+          "Intensidad de retroalimentación",
+          "Orientación",
+          "Luz indicadora de señal de giro",
+          "Luz indicadora del estacionamiento automático",
+          "Luz de advertencia de alta temperatura del refrigerante de motor",
+          "Luz de advertencia de sobrecalentamiento de la batería de energía",
+          "Luz indicadora para conexión de carga",
+          "Número de identificación del vehículo",
+          "Luz indicadora de cinturón de seguridad no abrochado",
+          "Luz de advertencia de falla de SRS",
+          "Luz indicadora de funcionamiento del ACC",
+          "Luz indicadora principal del crucero",
+          "Luz indicadora OK",
+          "Luz indicadora de modo económico"
+        ],
+        "content": [45, 53]
+      }
+    ]
   }
 ]
-},{
-  "sub":"Tablero de instrumentos",
-  "childrens":[
-    {
-      "sub":"Instrumento combinado",
-      "keywords":["Vatímetro", "Temperatura exterior", "Hora", "Velocímetro", "Modo de trabajo ECO/SPORT", "Odómetro", "Velocidad Campo de práctica", "Intensidad de retroalimentación", "Información de conducción", "Orientación", "Medidor de electricidad"],
-      "content":[44,44]
-    },{
-      "sub":"Luz indicadora de instrumentos",
-      "keywords":["Vatímetro", "Temperatura exterior", "Hora", "Velocímetro", "Modo de trabajo ECO/SPORT", "Odómetro", "Intensidad de retroalimentación", "Orientación", "Luz indicadora de señal de giro", "Luz indicadora del estacionamiento automático", "Luz de advertencia de alta temperatura del refrigerante de motor", "Luz de advertencia de sobrecalentamiento de la batería de energía", "Luz indicadora para conexión de carga", "Número de identificación del vehículo", "Luz indicadora de cinturón de seguridad no abrochado", "Luz de advertencia de falla de SRS", "Luz indicadora de funcionamiento del ACC", "Luz indicadora principal del crucero", "Luz indicadora OK", "Luz indicadora de modo económico"],
-      "content":[45,53]
-    }
-  ]
-}
-  ]
