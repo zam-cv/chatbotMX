@@ -1,23 +1,82 @@
-import cv2
-import numpy as np
+batery_alert = ['batería', 'alternador', 'carga', 'pila', 'eléctrico', 'vehículo', 'drenaje', '(+)','(-)', 'signo']
+direccionales = ['flechas', 'flecha','izquierda', 'derecha', 'vehículo', 'direccionales', 'lados','expandir', 'resolucion','cambiar', 'carril']
+signal_trafico = ['120', 'kilómetros', 'tráfico', 'velocidad', 'máxima', 'superar', 'límites','límite']
+suministro_energia = ['signo', 'exclamación', 'batería', 'fallando','carga']
+falla_direccion = ['volante', 'exclamación', 'advertencias','advertencia', 'girar', 'giro', 'dirección', 'conducir', 'asistida']
+estacionamiento_electrico = ['freno', 'mano', 'estacionamiento', 'tablero', 'activado', 'frenado', 'ilumina', 'sistema']
+advertencia_cinturon = ['cinturón', 'seguridad', 'vehículo', 'cinturones', 'abrochados','recordatorio', 'iluminado', 'detección']
+sobrecalentamiento_electromotor = ['calentamiento', 'asientos', 'sobrecalentamiento', 'avtivada', 'calor', 'calientan', 'motor', 'sobrecalentándose', 'refrigeración']
+sistema_energia = ['presión', 'neumáticos', 'baja', 'aire', ]
 
-faceClassif = cv2.CascadeClassifier('recognition\cascade2.xml')
 
-image = cv2.imread('recognition\img2.jpg')
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-faces = faceClassif.detectMultiScale(gray,
-	scaleFactor=1.1,
-	minNeighbors=5,
-	minSize=(30,30),
-	maxSize=(200,200))
 
-for (x,y,w,h) in faces:
-	cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),2)
-	print("cara")
 
-cv2.imshow('image',image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+
+conta =0
+conta1 =0
+conta2 =0
+conta3 =0
+conta4 =0
+conta5=0
+conta6 = 0
+conta7 = 0
+
+a = str(input())
+vec = []
+
+vec = a.split()
+
+for i in range(len(vec)):
+    if(vec[i].lower() in batery_alert):
+        conta = conta +1
+    if(vec[i].lower() in direccionales):
+        conta1 = conta1 +1
+    if(vec[i].lower() in signal_trafico):
+        conta2 = conta2 +1
+    if(vec[i].lower() in suministro_energia):
+        conta3 = conta3 +1
+    if(vec[i].lower() in falla_direccion):
+        conta4 = conta4 +1
+    if(vec[i].lower() in estacionamiento_electrico):
+        conta5 = conta5 +1
+    if(vec[i].lower() in advertencia_cinturon):
+        conta6 = conta6 +1
+    if(vec[i].lower() in advertencia_cinturon):
+        conta7 = conta7 +1
+        
+if(conta >= 3):
+    print("problema de bateria")
+elif(conta1 >= 3):
+    print("direccionales")
+elif(conta2 >= 3):
+    print("señal de trafico")
+elif(conta3 >= 3):
+    print("suministro de energia")
+elif(conta4 >= 3):
+    print("falla de direccion")
+elif(conta5 >= 3):
+    print("estacionamiento electrico")
+elif(conta6 >= 3):
+    print("advertencia de cinturon")	
+elif(conta7 >= 3):
+    print("sobrecalentamiento de motor")	
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
