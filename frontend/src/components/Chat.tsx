@@ -36,8 +36,8 @@ function preview() {
   );
 }
 
-export function Message({ content, type }: { content: String; type: String }) {
-  const isBot = type === "bot";
+export function Message({ content, role }: { content: String; role: String }) {
+  const isBot = role === "bot" || role === "system";
   const align = isBot ? "justify-end" : "justify-start";
 
   return (
@@ -64,7 +64,7 @@ export default function Chat({
     <div className="md:w-[100%] lg:w-[70%] m-auto">
       <div className="flex flex-col gap-5">
         {history.map((message, index) => (
-          <Message key={index} content={message.content} type={message.type} />
+          <Message key={index} content={message.content} role={message.role} />
         ))}
       </div>
     </div>
