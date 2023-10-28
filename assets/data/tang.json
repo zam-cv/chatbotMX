@@ -574,7 +574,7 @@
         "sub":"Vista del panel de aire acondicionado",
         "keywords": ["Panel de aire acondicionado", "Botón automático", "Botón de encendido/apagado", "descongelador de parabrisas", "Panel de aire acondicionado trasero", "Botón de aumento de volumen", "Botón de reducción de volumen", "Botón de modo de soplado a cara", "Botón de modo de soplado a pie", "Tecla de encendido/apagado", "Botón automático de aire acondicionado", "aumento de temperatura", "reducción de temperatura"]
         ,
-        "content":[208]
+        "content":[208,209]
       },
       {
         "sub":"Interfaz de operación del aire acondicionado",
@@ -604,7 +604,7 @@
         "sub":"Ítems de configuración del aire acondicionado",
         "keywords":["Interfaz de configuración de aire acondicionado", "Configuración de reducción automática de la velocidad de aire por llamadas Bluetooth", "Configuración de circulación interna automática durante el estacionamiento", "Configuración de tiempo de funcionamiento del aire acondicionado por control remoto", "Configuración de modo automático de aire acondicionado"]
         ,
-        "content":[22,221]
+        "content":[220,221]
       }
     ]
   },
