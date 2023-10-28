@@ -1,0 +1,178 @@
+[
+    {
+        "sub":"Diligencia debida y corazón sincero",
+        "childrens": [{
+        "sub":"Servicios superiores y sinceros",
+        "keywords" : ["BYD", "Servicios superiores", "Sinceros", "Post-venta", "Diligencia", "Corazón sincero", "Supremo nivel", "Usuarios", "Vehículos", "Especialidad"],
+        "content":"La marca de servicios superiores y sinceros de BYD se estableció en el año 2006, en que todas las personas post-venta de BYD Auto manifiestan el valor de servicios de “DILIGENCIA DEBIDA Y CORAZÓN SINCERO”.ln
+        Siempre nos dedicamos a brindar servicios de post-venta de supremo nivel para usuarios de BYD Auto y sus vehículos. Y nos confiamos firmemente que las técnicas magistrales de servicios provienen de especialidad y diligencia, y las actitudes sinceras de servicios se basan en responsabilidad e intención.",
+    }]},
+    {
+        "sub":"Prologo",
+        "keywords":["BYD Tang EV", "Manual", "Piezas de repuesto", "Garantía", "Licencia del vehículo", "Consejos", "Atención", "Advertencia", "Seguridad personal", "Reciclaje de baterías"],
+        "content":"Gracias por su opción del modelo BYD Tang EV. ln
+Para ayudarle a usar y mantener los vehículos de BYD Tang EV correctamente, lea todo el contenido de este manual detenidamente antes del uso y guárdelo cuidadosamente después de la lectura. ln
+Nota especial: BYD Automobile Industry Co., Ltd. recomienda que seleccione piezas de repuesto genuinas y use, mantenga y repare el vehículo correctamente de acuerdo con los requisitos del manual del usuario. El reemplazo y la modificación de vehículos con repuestos no originales afectarán el rendimiento del vehículo, especialmente la seguridad y durabilidad. Los daños y problemas de rendimiento del vehículo causados por esto no estarán cubiertos por la garantía. Además de la modificación del vehículo, puede violar las leyes y reglamentos nacionales y los reglamentos del gobierno local. ln
+Gracias por elegir BYD Tang EV, y agradecemos sus valiosos comentarios y sugerencias. ln
+Con el fin de garantizar un mejor servicio para usted, asegúrese de proporcionar información de contacto precisa. Si hay algún cambio, comuníquese con un taller de servicio autorizada de BYD para actualizar en el sistema. Al mismo tiempo, preste atención a las leyes y reglamentos nacionales relevantes y a las políticas y reglamentos locales. Obtenga la licencia del vehículo lo antes posible, de lo contrario puede existir el riesgo de que la licencia no se pueda registrar. ln
+En este manual, donde hay “consejos”, “precauciones” y “advertencias”, debe seguir cuidadosamente las instrucciones para evitar la posibilidad de lesiones o daños. La indicación y el método de uso del tipo de aviso son los siguientes: ln
+Consejos ln
+Deben ser cumplidos para facilitar comprobación y mantenimiento. ln
+
+Atención ln
+Deben ser cumplidos para evitar daños al vehículo. ln
+
+Advertencia ln
+Deben ser cumplidos para proteger la seguridad personal. ln
+
+Los signos de seguridad mostrados en la figura izquierda significan “no se puede” o “se prohíbe”. ln
+El propósito de este manual es ayudarlo a usar el producto correctamente, y no representa ninguna descripción de la configuración del producto y la versión del software. ln
+Para la configuración del producto y la versión del software, consulte el contrato correspondiente con este producto (si lo hay) o consulte al vendedor que le vendió el producto. ln
+Para consultar la información sobre los puntos de reciclaje de baterías de energía: inicie sesión https:\/\/www.byd.com\/cn\/socialresponsibility\/ batteryrecycle.html ln
+Para obtener instrucciones detalladas sobre el producto, preste atención a ""difenhui"" en wechat o escanee el siguiente código QR del programa pequeño para realizar consultas."
+    },
+    {
+"sub":"Descripción general del modelo BYD Tang EV",
+"keywords":["BYD Tang EV", "Vehículo eléctrico puro", "Carrocería", "Paquete de baterías", "Sonido", "Batería de fosfato de hierro y litio", "Seguridad del sistema", "Unidad de gestión de batería", "Motor a velocidad alta", "Rendimiento de seguridad"]
+,
+"content":"El modelo BYD Tang EV es un vehículo eléctrico puro de pasajeros de nueva energía y nueva potencia, y un producto ecológico que BYD se esfuerza por fabricar. ln
+La carrocería es una carrocería que soporta carga, y el paquete de baterías de energía está integrado orgánicamente con la carrocería, para garantizar completamente la seguridad de la batería y de todo el vehículo. ln
+Bajo las condiciones de trabajo completamente eléctrico puro del vehículo completo, el sonido del interior y exterior del vehículo es extremadamente pequeño, lo que puede proporcionar a los usuarios un entorno que no tiene comparación con los vehículos de combustible. ln
+La batería de fosfato de hierro y litio ha sido sometida a pruebas de alta temperatura, alta presión, impacto y otras, y tiene un excelente rendimiento de seguridad. ln
+En el diseño del vehículo, se considera completamente la seguridad del sistema de alta presión y de los vehículos de combustible tradicionales, para proteger la seguridad de los ocupantes del vehículo durante una colisión. ln
+La unidad de gestión de batería monitorea constantemente las baterías de energía, ajusta la salida externa de la baterías de acuerdo con el voltaje y la corriente de cada batería y otros indicadores de rendimiento, para evitar una serie de problemas que afectan el rendimiento de la batería, como sobrecarga, sobredescarga y sobretemperatura, con el fin de garantizar que la batería funcione siempre en condiciones normales. ln
+El motor a velocidad alta desarrollado por BYD de forma independiente puede proporcionar la alta velocidad de rotación y el par grande para Tang EV, y la capacidad de arranque y aceleración es fuerte."
+    },
+    {
+      "sub": "Seguridad",
+      "content": "",
+      "childrens": [
+        {
+          "sub": "Cinturón de seguridad",
+          "content": "",
+          "childrens": [
+            {
+            "sub":"Introducción de cinturones de seguridad",
+            "keywords":["Estudios", "Cinturones de seguridad", "Conducción", "Accidentes", "Lesiones", "Niños", "Función de bloqueo de emergencia (ELR)", "Seguridad", "Asiento", "Pretensión del cinturón de seguridad"],
+            "content":"Los estudios han demostrado que en el frenado de emergencia, la dirección repentina y los accidentes de colisión, el uso correcto de los cinturones de seguridad puede reducir en gran medida las víctimas de los pasajeros del vehículo. Lea atentamente lo siguiente y cúmplalo estrictamente. ln
+            
+            Atención ln
+            ● Durante la conducción del automóvil, utilice el cinturón de seguridad por siempre. ln
+            ● Antes de conducir el vehículo, asegúrese de que todos los pasajeros del vehículo se hayan abrochado correctamente los cinturones de seguridad. De lo contrario, en caso de frenado de emergencia o colisión, las personas en el vehículo tienen más probabilidades de sufrir lesiones corporales graves e incluso poner en peligro la vida. ln
+            
+            ● El cinturón de seguridad del vehículo está diseñado principalmente de acuerdo con la forma del cuerpo del adulto y no es adecuado para niños. Elija el dispositivo de protección para niños adecuado según la edad y la forma del cuerpo de su hijo (consulte el dispositivo de protección para niños en este capítulo). ln
+            
+            ● Si algún cinturón de seguridad está dañado o anormal, póngase inmediatamente en contacto con las tiendas de servicios autorizadas de BYD Auto para confirmación y tratamiento, y no utilice el asiento correspondiente antes de su resolución. ln
+            
+            ■ BYD Auto enfatiza fuertemente que el conductor y los pasajeros del vehículo deben usar cinturones de seguridad en todo momento. De lo contrario, aumentará la posibilidad de lesiones o lesiones graves en el accidente. ln
+            
+            ■ El cinturón de seguridad del vehículo está diseñado para adultos y se debe seleccionar el cinturón de seguridad adecuado según la situación. ln
+            
+            ■ Le recomendamos hacer al niño sentarse en el asiento de fila intermedia y usar el cinturón de seguridad de asiento y el dispositivo de protección para niños adecuado. En caso de frenado de emergencia o colisión, los niños desprotegidos serán gravemente heridos e incluso mortales. De misma manera, no se permite que el niño se siente en sus piernas, con el fin de evitar que el niño no se proteja suficientemente durante el frenado de emergencia o la colisión. ln
+            
+            Función de bloqueo de emergencia (ELR) del cinturón de seguridad: ln
+            ■ El cinturón de seguridad se bloqueará automáticamente cuando el vehículo gire bruscamente, frene de emergencia, se produzca una colisión o el pasajero se incline hacia adelante rápidamente, dándose cuenta de la restricción y protección efectivas del pasajero. ln
+            
+            ■ Cuando el vehículo está funcionando de manera constante, el cinturón de seguridad se extraerá y se enrollará a medida que el pasajero se mueva lenta y constantemente, para que el pasajero pueda moverse libremente. ln
+        
+            Función de límite de pretensión del cinturón de seguridad (si hay): ln
+            Cuando el vehículo tiene una colisión frontal grave y cumple con las condiciones de activación del dispositivo de pretensión, el dispositivo de pretensión retrae rápidamente parte del cinturón de seguridad y lo bloquea para fortalecer la protección de los pasajeros. El dispositivo de límite de fuerza limita la fuerza de restricción del cinturón de seguridad sobre el cuerpo del pasajero dentro de un cierto rango, para evitar daños al pasajero debido a una fuerza de restricción excesiva. ln"
+            },
+            {
+                "sub": "Uso del cinturón de seguridad",
+                "keywords":["Ajuste", "Cinturón de seguridad", "Posición", "Respaldo", "Hebilla", "Correa", "Ajustador de altura", "Desabrochar", "Sistema de alarma", "Conductor"],
+                "content": "Ajuste el asiento a una posición adecuada y ajuste el respaldo a un ángulo adecuado. (Ver método de ajuste del asiento) ln
+                
+                2. Ajuste la posición del cinturón de seguridad de tres puntos. ln
+                ■ Mantenga una postura correcta al sentarse y tire suavemente de la correa tejida del cinturón de seguridad para que cruce el pecho en diagonal desde la posición del hombro. La correa tejida del cinturón de seguridad no debe ubicarse debajo de los brazos o cruzar por detrás del cuello. ln
+                ■ Se debe mantener el cinturón de seguridad de cintura en lo más posible en la posición de la cadera. ln
+                
+                3. Inserte la lengüeta del cinturón de seguridad en su cierre, hasta que se escuche un sonido de “taque”, tire la lengüeta en dirección contraria para confirmar que está bloqueado con éxito. Preste atención a no torcer el cinturón de seguridad. ln
+                
+                4. Ajuste el ajustador de altura del cinturón de seguridad (fila delantera) a una posición adecuada para obtener la mejor comodidad y protección. ln
+                1 Presione el botón de liberación del ajustador de altura del cinturón de seguridad.
+                2 Sujete el ajustador de altura del cinturón de seguridad y muévalo hacia arriba y hacia abajo, ajuste el cinturón de seguridad de la fila delantera a una altura adecuada y afloje el ajustador de altura del cinturón de seguridad de la fila delantera. ln
+                
+                5. Después de completar el ajuste, jale la parte de la correa para el hombro del cinturón de seguridad para comprobar si el ajustador de altura del cinturón de seguridad está bloqueado. ln
+                
+                Consejos ln
+                ● La correa para el hombro del cinturón de seguridad debe extenderse desde la mitad del hombro. El cinturón de seguridad debe mantenerse alejado del cuello y no puede resbalarse fácilmente del hombro. De lo contrario, el cinturón de seguridad no desempeñará su debido papel protector en el frenado de emergencia o en un accidente, e incluso causará lesiones graves a los pasajeros. ln
+                ● El cinturón de seguridad de cintura debe ser lo más bajo posible a través de la cadera para evitar la lesión del ocupante debido a que su abdomen está sujetado con firmeza por el cinturón de seguridad en un accidente. ln
+                ● El cinturón de seguridad debe acercarse estrechamente al cuerpo para la mejor protección. ln
+                
+                6. Desabrochar los cinturones de seguridad ln
+                ■ Presione el botón rojo de desbloqueo en la hebilla, el cerrojo saldrá automáticamente y el cinturón de seguridad se retraerá automáticamente. ln
+                ■ Si el cinturón de seguridad no se puede retraer suavemente, se debe sacar y revisar para ver si está retorcido. ln
+                
+                Seguridad ln
+                
+                Atención ln
+                ● Cada cinturón de seguridad se usa para una persona. No se permite el uso de un cinturón de seguridad de por varias personas (incluido el niño). ln
+                ● Evite inclinar demasiado el respaldo del asiento. Cuando el respaldo del asiento está en posición vertical, el cinturón de seguridad tiene mejor protección. ln
+                ● No se permite que el cinturón de seguridad, la lengüeta y la hebilla estén atrapados por la puerta, de lo contrario podría dañar el cinturón de seguridad. ln
+                ● Compruebe el cinturón de seguridad regularmente. Compruebe si hay anormalidades como marcas de corte, abrasión y flojedad. Si se encuentra una anormalidad, se recomienda ponerse en contacto inmediatamente con un taller de servicio autorizado de BYD para confirmación y tratamiento. Antes de eso, no use el asiento correspondiente. ln
+                ● No desmonte, desarme ni modifique el cinturón de seguridad sin autorización. ln
+                ● Después del accidente, se recomienda comprobar el cinturón de seguridad en un taller de servicio autorizado por BYD Auto. Si se activa la función de pretensión, se debe reemplazar el cinturón de seguridad. ln
+                ● En caso de un accidente severo, aún no aparece el daño evidente, también debe reemplazar el cinturón de seguridad junto con el conjunto de asiento, y comprobar completamente el sistema de bolsa de aire de seguridad. ln
+                ● La mujer embarazada también debe usar el cinturón de seguridad del mismo método correcto como otros ocupantes. Sobre todo tenga en cuenta de que el cinturón de seguridad de cintura debe ser lo más bajo posible a través de la cadera para evitar la lesión severa de la mujer embarazada y el feto debido a que su abdomen está sujetado con firmeza por el cinturón de seguridad en un accidente. ln
+                ● El método para usar el cinturón de seguridad de la fila trasera es de la misma manera que la delantera. Para que el cinturón de seguridad de asiento trasero pueda funcionar para la protección correcta, al usar el cinturón de seguridad de asiento trasero, asegúrese de insertar la lengüeta del cinturón de seguridad correspondiente en la hebilla correspondiente del cinturón de seguridad. El conductor es responsable de recordar a los pasajeros que usen el cinturón de seguridad correctamente. ln
+                ● No meta moneda metálica, clip u otras materias extrañas en el cierre de lengüeta, evitando que se obstruya la conexión correcta de lengüeta y cierre. ln
+                
+                Función de recordatorio de desabrocharse el cinturón de seguridad ln
+                Si el conductor o el pasajero de la fila delantera no usan el cinturón de seguridad después de arrancar el vehículo, el sistema de alarma de sonido y luz comenzará a funcionar hasta que el conductor y el pasajero de la fila delantera usen el cinturón de seguridad. ln
+                ■ Indicador de cinturón de seguridad no atado ln
+                Si el cinturón de seguridad no está abrochado en ninguna posición, la luz
+                
+                 indicadora se encenderá y parpadeará de acuerdo con la lógica de la alarma. ln
+                
+                ■ Indicador de posición del cinturón de seguridad no atado ln
+                Cuando el cinturón de seguridad no está abrochado, la luz indicadora de la posición correspondiente se encenderá y se mantendrá encendida cuando aparezca la carrocería del vehículo. ln
+                
+                ■ Recordatorio de cinturón de seguridad no abrochado para el pasajero de la fila delantera ln
+                La marcha de la fuente de alimentación está en la marcha “ON”. Cuando el cinturón de seguridad del conductor no está abrochado, o el asiento del copiloto lleva a un pasajero, y el pasajero no lleva el cinturón de seguridad, la luz indicadora principal para el cinturón de seguridad desabrochado se encenderá y la luz indicadora de la posición correspondiente está encendida. Si todavía no usa el cinturón de seguridad mientras conduce, la luz indicadora se iluminará, acompañando con el sonido de advertencia para recordar a los conductores y pasajeros. ln
+                
+                ■ Una vez abrochados los cinturones de seguridad del conductor o del pasajero de la fila delantera y trasera, se apaga la luz indicadora principal de cinturón de seguridad no abrochado y se apagan todas las luces indicadoras en la pantalla de posición correspondiente. ln
+                
+                Consejos ln
+                ● Si las funciones anteriores son anormales o no válidas, se recomienda ponerse en contacto con un taller de servicio autorizado de BYD de inmediato y no utilice el asiento correspondiente hasta que la función vuelva a la normalidad. ln
+                ● Cuando el vehículo está marchando, los pasajeros del vehículo deben sentarse en el asiento y usar el cinturón de seguridad correctamente. De lo contrario, en caso de frenado de emergencia o colisión, las personas en el vehículo serán más propensas a sufrir lesiones corporales graves o incluso mortales. ln"
+              }
+          ]
+        },
+        {
+"sub":"Airbag",
+"content":"",
+"childrens":[
+    {
+"sub":"Introducción de airbag",
+"keywords":["Airbag", "Sistema de retención auxiliar", "Colisión", "Cinturón de seguridad", "Airbags frontales", "Airbags laterales", "Protección", "Fundas de asiento", "Luz de advertencia", "Autodiagnóstico"],
+"content":"El sistema de airbag es parte del sistema de retención auxiliar, que es un complemento del asiento y el cinturón de seguridad. Cuando el vehículo tiene un accidente de colisión grave y se alcanzan las condiciones de despliegue del sistema, el sistema de airbag se desplegará rápidamente, y junto con el cinturón de seguridad, será la cabeza del conductor y los pasajeros. Proporcione protección adicional al pecho y al cofre para reducir la probabilidad de lesiones personales o incluso bajas. ln
+
+■ Según los diferentes tipos de colisiones, los sistemas de airbags generalmente se dividen en airbags frontales y airbags laterales. Los airbags frontales incluyen airbags para el conductor y airbags para el pasajero de la fila delantera, y los airbags laterales incluyen los airbags laterales del asiento de la fila delantera y los airbags tipo cortina. ln
+
+■ El sistema de airbag no puede reemplazar el cinturón de seguridad, es una parte integral de todo el sistema de protección de seguridad pasiva del vehículo. Solo cuando el airbag funciona con el cinturón de seguridad abrochado, se puede aprovechar al máximo el efecto de protección del sistema de airbag. ln
+
+Consejos ln
+● Mantenga su postura correcta, para que el cinturón de seguridad y el sistema de airbag desarrollen sus mejores protecciones. ln
+● Se prohíbe desmontar las piezas del airbag sin permiso. ln
+● El uso de fundas de asiento que no sean las originales de nuestra compañía puede hacer que disminuya el rendimiento del airbag o causar lesiones accidentales a los pasajeros. No coloque ningún objeto entre los airbags laterales y los pasajeros. ln
+● No aplique una fuerza excesiva en el costado del asiento equipado con airbags laterales. ln
+● En caso de la colisión del vehículo, aunque el módulo de la bolsa de aire de seguridad no explota y el cinturón de seguridad de pretensión no está bloqueado, para proteger a los ocupantes del vehículo de los peligros de alto voltaje, la computadora de la bolsa de aire se cifrará. Le recomendamos ponerse en contacto con los centros de servicio autorizados de BYD Auto para realizar pruebas. ln
+
+Luz de advertencia de bolsa de aire ln
+■ El sistema de bolsa de aire de seguridad está supervisado por la unidad de control electrónico y tiene función de autodiagnóstico. El estado del sistema se muestra mediante la luz de advertencia en el instrumento combinado. ln
+
+■ Cuando la fuente de alimentación del vehículo está “OK”, se enciende la luz de advertencia de la bolsa de aire de seguridad durante aproximadamente 5 s y luego se apaga, lo que indica que el sistema es normal. ln
+
+■ Si el airbag está apagado, la luz de advertencia está siempre encendida, pero no tiene función de protección. ln
+
+Consejos ln
+● Cuando la luz de advertencia de la bolsa de aire de seguridad está siempre encendida, indica que el sistema está fallado. Se recomienda comprobar el sistema de bolsa de aire de seguridad en un centro de servicio autorizado por BYD Auto lo antes posible, de lo contrario, el funcionamiento de la bolsa de aire de seguridad se verá afectado. ln
+
+● Si su vehículo está inundado de agua (por ejemplo, la alfombra está mojada / el vehículo está sumergido en agua, etc.) o el vehículo está dañado por el agua en diversos grados, no arranque el vehículo antes de cortar la batería de hierro de arranque. De lo contrario, la bolsa de aire de seguridad podría desplegarse y provocar lesiones graves corporales o incluso poner en peligro la vida. ln",
+    }
+]
+        }
+      ]
+    }
+  ]
