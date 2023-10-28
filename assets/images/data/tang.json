@@ -113,5 +113,271 @@
       "content":[45,53]
     }
   ]
+},
+{
+  "sub":"Operación de controlador",
+  "childrens":[
+    {
+      "sub":"Puerta de vehículo y llave",
+      "childrens":[
+        {
+          "sub":"Llave",
+          "content":[56,57],
+          "childrens":[
+            {
+              "sub":"Llave inteligente electrónica",
+              "keywords":["Llave inteligente electrónica", "Botón de bloqueo", "Botón de desbloqueo", "Interruptor de apertura de puerta trasera", "Botón de inicio/apagado", "Luz indicadora", "Daños a la llave inteligente", "Control remoto", "Batería agotada", "Pérdida de llave inteligente", "Modificación de frecuencia", "Interferencia de radio", "Equipos médicos", "Ondas electromagnéticas", "Marcapasos", "Bloqueo del vehículo"],
+              "content":[56,57]
+            },
+            {
+              "sub":"Llave mecánica",
+              "keywords":["Llave mecánica", "Desbloquear", "Bloquear", "Hebilla de desbloqueo", "Cárter de la llave", "Placa de número de la llave", "Número de la llave mecánica", "Llave de repuesto", "Taller de servicio autorizada", "Número seguro"],
+              "content":[58,58]
+            },
+            {
+              "sub":"Llave NFC",
+              "keywords":["Llave NFC", "Marca del espejo retrovisor", "Desbloquear", "Bloquear", "Tarjeta NFC", "Teléfono móvil", "Carga inalámbrica", "Campo cercano", "Identificación", "Seguridad", "Pérdida de llave", "Volver a configurar"],
+              "content":[59,60]
+            }
+          ]
+        },
+        {
+          "sub":"Bloquear /Desbloquear puertas",
+          "content":[60,70],
+          "childrens":[
+            {
+              "sub":"Bloqueo/Desbloqueo con llave mecánica",
+              "keywords":["Tire", "Manija", "Puerta delantera", "Ángulo máximo", "Apertura", "Llave", "Orificio de la cerradura", "Gírela", "Extraiga", "Desbloqueo", "Sentido horario", "Bloqueo", "Sentido contrario"],
+              "content":[60,60]
+            },
+            {
+              "sub":"Apertura de puerta con manija de puerta",
+              "keywords":["Vehículo desbloqueado", "Tira", "Manija", "Abrir puerta", "Vehículo bloqueado", "Dos veces continuas", "Bloqueo electrónico", "Puerta trasera", "Bloqueo para niños", "Abrir puerta desde el interior"],
+              "content":[60,61]
+            },
+            {
+              "sub":"Bloqueo/desbloqueo de llave inteligente/búsqueda de vehículo",
+              "keywords":["Control remoto inalámbrico", "Bloqueo", "Alimentación del vehículo", "Capó delantero", "Ascenso automático del vidrio", "Espejos retrovisores exteriores", "Desbloqueo", "Luz de señal de giro", "Antirrobo", "Elevación de ventana del control remoto", "Seguridad de los pasajeros", "Configuración de vehículo", "Búsqueda del vehículo", "Pitido largo", "Ubicación del vehículo"],
+              "content":[62,61]
+            },
+            {
+              "sub":"Bloqueo/Desbloqueo con micro interruptor",
+              "keywords":["Operación de bloqueo", "Fuente de alimentación del vehículo", "Puertas cerradas", "Micro interruptor", "Señal de giro", "Ascenso automático de la ventana", "Operación de desbloqueo", "Antirrobo", "Área de activación", "Llave inteligente válida", "Abrir la puerta", "Condiciones", "Acceso", "Configuración de vehículo", "Interfaz de configuración de vehículo", "Acceso", "Ascenso/descenso de ventana"],
+              "content":[62,63]
+            },
+            {
+              "sub":"Desbloqueo/bloqueo con llave NFC",
+              "keywords":["Bloqueo de puertas", "Alimentación en posición 'OFF'", "Puertas cerradas", "Tarjeta NFC", "Área de comando", "Espejo retrovisor exterior", "Luz intermitente", "Desbloqueo de puertas", "Estado antirrobo", "Señal de giro", "Situaciones", "Función NFC", "Teléfono móvil", "Configuración", "Tiempo máximo de permiso", "Inicio sin llave", "Uso en estado apagado", "Uso prolongado y de alta frecuencia", "Permiso de inicio", "Modelos de teléfonos móviles", "Función de llave NFC"],
+              "content":[63,64]
+            },
+            {
+              "sub":"Desbloqueo/bloqueo con llave bluetooth",
+              "keywords":["Manual del usuario de versión electrónica"],
+              "content":[64,64]
+            },
+            {
+              "sub": "Bloqueo/desbloqueo de puerta trasera",
+              "keywords":["Llave inteligente", "Puerta trasera", "Desbloqueo", "Bloqueo", "Apertura de puerta", "Antipellizco", "Altura de apertura", "Sensor de patada", "Puerta trasera eléctrica", "Portón trasero"],
+              "content":[64,69]
+            },
+            {
+              "sub":"Bloqueo/desbloqueo con el control de acceso centralizado",
+              "keywords":["Interruptor de bloqueo", "Cierre centralizado", "Bloqueo automático", "Desbloqueo automático", "Control central", "Modo antirrobo", "Luz de fondo", "Apertura externa", "Manija interna", "Fuerza de impacto"]
+              ,"content":[69,69]
+            },
+            {
+              "sub":"Bloqueo mecánico de emergencia del vehículo",
+              "keywords":["sistema de bloqueo centralizado", "llave inteligente", "bloqueo de emergencia", "puerta del conductor", "desbloqueo", "llave mecánica", "diente de la llave", "cerradura de la puerta", "apertura máxima", "botón interior"]
+              ,
+              "content":[70,70]
+            }
+          ]
+        },
+        {
+          "sub":"Sistema de entrada y arranque inteligente",
+          "keywords":["llave inteligente", "entrada inteligente", "arranque de vehículo", "detección de la ubicación de antenas", "zona de activación", "ahorro de energía"],
+          "content":[71,73]
+        },
+        {
+          "sub":"Bloqueo electrónico para niños",
+          "keywords":["bloqueo para niños", "dispositivos de bloqueo", "botón de bloqueo", "ascenso/descenso del vidrio", "abrir las puertas traseras", "cinturones de seguridad", "seguridad infantil"],
+          "content":[73,73]
+        }
+      ]
+    },
+    {
+      "sub":"Asiento",
+      "childrens":[
+        {
+          "sub":"Notas sobre asiento",
+          "keywords":["ajuste del asiento", "medida de protección", "asientos de la segunda y tercera fila", "fijar el equipaje", "reposacabezas", "prohibido sentarse en la parte superior", "objetos debajo del asiento", "ajustar el respaldo", "asiento del conductor", "cinturón de seguridad del asiento"]
+          ,
+          "content":[74,74]
+        },
+        {
+          "sub": "Ajuste eléctrico de los asientos de la fila delantera",
+          "keywords":["ajuste eléctrico de asientos", "interruptor de ajuste de posición", "interruptor de ajuste del ángulo del respaldo", "ajuste de soporte lumbar", "ajuste de soporte de piernas", "sistema de memoria", "función de activación de memoria", "sistema de calefacción y ventilación", "calefacción del asiento", "ventilación del asiento"]
+          ,"content":[75,79]
+        },
+        {
+          "sub":"Ajuste de asientos medios",
+          "keywords":["ajuste de posición", "palanca de ajuste", "asiento delantero y trasero", "manija de ajuste del respaldo", "subida y bajada de pasajeros", "fila media", "asiento de la fila central derecha"],
+          "content":[79.80]
+        },
+        {
+          "sub":"Asientos traseros plegados",
+          "keywords":["vuelta", "respaldo", "nivelar", "cable", "posición vertical", "adelante", "atrás", "giro", "bloqueo", "plegado", "vehículo en marcha", "tercera fila", "daños a los pies", "asientos de la segunda fila", "manija de ajuste del respaldo", "cuerda de tracción", "desbloqueo de vuelco", "mal funcionamiento", "restaurar"]
+          ,
+          "content":[80,80]
+        },
+        {
+          "sub":"Reposacabezas",
+          "keywords":["reposacabezas", "ajuste", "fila delantera", "cuatro direcciones", "arriba", "abajo", "delantero", "trasero", "elevar", "bajar", "botón de ajuste", "desmontaje", "desbloquear", "lado", "dos direcciones", "altura", "filas media y trasera", "retirar", "instalar", "protección", "cuello", "lesiones", "cabeza", "centro", "oreja", "bloqueado", "vehículo", "tallo"],
+          "content":[81,83]
+        }
+      ]
+    },
+    {
+      "sub":"Volante",
+      "childrens":[
+        {
+          "sub":"Ajustes del volante",
+          "keywords":["volante", "ajuste", "ángulo", "eléctrico", "alimentación", "interruptor", "columna", "conductor", "bienvenida", "modos", "dirección", "asistencia", "cómodo", "deportivo", "configuración", "modo de terreno", "mantenimiento de carril", "velocidad", "vehículo"]
+          ,
+          "content":[84,86]
+        }
+      ]
+    },
+    {
+      "sub":"Interruptor",
+      "childrens":[
+        {
+          "sub":"Interruptor de iluminación",
+          "keywords":["perilla", "luces", "automático", "sensor", "intensidad", "luminancia", "lucitas", "luz de cruce", "luz antiniebla trasera", "luz para todo clima", "luz de carretera", "señal de adelantar", "intermitentes", "follow me home", "iluminación", "salir de casa", "followmehome"],
+          "content":[86,89]
+        },
+        {
+          "sub":"Interruptor de limpiaparabrisas ",
+          "keywords":["palanca", "limpiaparabrisas", "lavadora", "sensor", "lluvia", "sensibilidad", "limpiaparabrisas automático", "nieve", "vidrio", "agente de limpieza"],
+          "content":[82,92]
+        },
+        {
+          "sub":"Grupo de interruptores de la puerta delantera izquierda",
+          "keywords":["interruptor", "ventanas", "elevalunas", "antipellizco", "inicialización", "cierre centralizado", "puertas", "retrovisor exterior", "ajuste", "plegado"]
+          ,
+          "content":[92,94]
+        },
+        {
+          "sub":"Interruptor de cambio de kilometraje",
+          "keywords":["interruptor", "cambio de kilometraje", "kilometraje total", "kilometraje I", "kilometraje II", "instrumento", "información", "presionando", "borrará"]
+          ,
+          "content":[94,94]
+        },
+        {
+          "sub":"Grupo de interruptores de asistencia a la conducción",
+          "keywords":["interruptor", "control central", "mantenimiento de carril", "monitoreo de zonas ciegas", "estacionamiento automático", "estacionamiento electrónico", "Freno de estacionamiento electrónico", "EPB", "función", "encender", "detalles", "consulte", "Capítulo", "Sistema", "instrumento", "encendida"],
+          "content":[95,95]
+        },
+        {
+          "sub":"Grupo de interruptor de modo.",
+          "keywords":["Palanca", "ajuste", "modo", "retroalimentación", "activar", "mayor", "estándar", "Botón", "nieve", "exclusivo", "pavimento", "firme", "cubierto", "sustancias", "sueltas", "mojadas", "deslizantes", "hierba", "nieve", "hielo", "grava", "optimizarán", "características", "tracción", "conducción", "manejo", "condiciones", "húmedas", "resbaladizas", "seleccionará", "cuidadosamente", "pedal", "acelerador", "Feeback", "Start", "Stop", "Auto", "Switch", "Atención", "rendimiento", "motor", "activación", "control", "dinámico", "estabilidad", "nieve", "blanda", "útil", "apagar", "sistema", "ESP", "dificultades", "reiniciarse", "conducción", "económico", "deportivo"],
+          "content":[95,95]
+        },
+        {
+          "sub":"Interruptor de luz de advertencia de emergencia",
+          "keywords":["Presione", "interruptor", "luces", "intermitentes", "parpadearán", "indicadoras", "giro", "instrumento", "sincrónicamente", "nuevamente", "dejarán"],
+          "content":[96,96]
+        },
+        {
+          "sub":"Grupo de interruptores de volante",
+          "keywords":["Palanca", "ajuste", "modo", "retroalimentación", "Botón", "nieve", "exclusivo", "pavimento", "firme", "cubierto", "capa", "sustancias", "sueltas", "mojadas", "deslizantes", "optimizarán", "características", "tracción", "conducción", "manejo", "húmedas", "resbaladizas", "seleccionará", "cuidadosamente", "pedal", "acelerador", "rendimiento", "motor", "control", "dinámico", "estabilidad", "nieve", "blanda", "útil", "apagar", "ESP", "dificultades", "reiniciarse", "conducir", "alimentación", "OK", "interruptor", "control", "audio", "izquierdos", "derechos", "Botones", "izquierdo", "Interruptor", "crucero", "activar", "sistema", "reinicio", "Reinicio", "recuperar", "parámetro", "velocidad", "vehículo", "objetivo", "cancelación", "estado", "espera", "mudo", "giro", "rotar", "pantalla", "multimedia", "Visión", "panorámica", "derecho", "Rueda", "desplazamiento", "Girar", "volumen", "submenús", "nivel", "menú", "instrumento", "primer", "bóton", "buscar", "automáticamente", "estación", "radio", "selección", "prealmacenada", "silencio", "USB", "Música", "Bluetooth", "APP", "tercera", "reproducir", "pista", "número", "marcar", "responder", "teléfono", "marcar", "número", "conectar", "interfaz", "principal", "Bluetooth", "registro", "llamada", "directorio", "directorio", "siguiente", "hora", "minuto", "terrestre", "parte", "comando", "teléfono", "Bluetooth", "técnico", "Consejos", "reglamentaciones", "tráfico", "bocina", "sonará", "rázonablemente"]
+          ,
+          "content":[97,101]
+        },
+        {
+          "sub":"Interruptor de techo solar",
+          "keywords":["Abrir", "techo", "solar", "posición", "completamente", "abierta", "Empuje", "interruptor", "parte", "trasera", "vehículo", "primera", "marcha", "manual", "detendrá", "actual", "segunda", "automática", "abierto", "horizontally", "inclinada", "arriba", "cerrar", "Tire", "cierra", "posicion", "cerrada", "Función", "antipellizco", "obstáculo", "resistencia", "mayor", "cualquier", "obstáculo", "función", "detendrá", "retroceder", "agua", "nieve", "hielo", "parasol", "cierre", "completa", "ante", "proceso", "cerrando", "inicialización", "fuente", "alimentación", "vehículo", "completo", "retención", "válida", "inicializarlo", "bloqueo", "posición", "cerrada", "proceso", "inicialización", "debe", "mantener", "inicialización", "parasol", "inicializan", "mismo"],
+          "content":[101,104]
+        },
+        {
+          "sub":"Interruptor de luz en el interior",
+          "keywords":["Interruptor", "luz", "interior", "delantera", "Luz", "lectura", "izquierda", "derecha", "control", "PUERTA", "general", "lateral", "bienvenida", "brillo", "color", "zona", "lámpara", "ambiente", "sistema", "multimedia", "Cámara", "PAD", "trasera", "marcha", "continuamente"]
+          ,"content":[104,105]
+        }
+      ]
+    }
+  ]
+},{
+  "sub":"Uso y conducción",
+  "childrens":[
+    {
+      "sub":"Instrucciones de carga/descarga",
+      "childrens":[
+        {
+          "sub":"Descripción de carga y descarga",
+          "keywords":["Instrucciones", "carga", "Advertencia", "seguridad", "dispositivo", "eléctrico", "voltaje", "menor", "trabajo", "toque", "chico", "acercamiento", "médicos", "electrónicos", "implantables", "fabricante", "dispositivo", "electrónico", "entorno", "seguro", "líquidos", "fuentes", "fuego", "calor", "agua", "comprobación", "operación", "equipo", "suministro", "energía", "pistola", "puerto", "conexión", "cable", "óxido", "carcasa", "materias", "extrañas", "terminales", "metálicos", "dañados", "oxidadas", "corrosión", "manchados", "mojados", "limpiar", "paño", "especial", "vehículos", "eléctricos", "normas", "nacionales", "modifique", "desmonte", "repare", "productos", "mala", "calidad", "prohibido", "operar", "manos", "descargas", "lesiones", "recomendado", "comunicarse", "taller", "servicio", "autorizado", "BYD", "vehículo", "agitar", "tormenta", "eléctrica", "rayos", "compartimento", "frontal", "desconectar", "encender", "causa", "abrir", "vehículo", "enranque", "mecanismo", "bloqueo", "desconectado", "mantener", "aire", "acondicionado", "normalmente", "potencia", "garantizar", "personas", "recomendado", "estacionar", "ventilado", "proceso", "compresor", "ventilador", "funcionan", "demanda", "cierto", "sonido", "cubierta", "protección", "recomendamos", "derretir", "agua", "caliente", "hielo", "obligatoriamente", "carga", "alta", "potencia", "afectado", "acondicionado", "cubina", "aumentará", "ligera", "fenómeno", "completar", "desconectar", "apagar", "máxima", "apagada", "cubierta", "protección", "materias", "extrañas", "entrada", "anormal", "carga", "programada", "carga", "instantánea", "fallo", "causas", "solución", "falla", "mostrando", "sistema", "visualización", "red", "eléctrica", "conexion", "cables", "dispositivo", "desbloquear", "presionado", "temporatura", "suficientemente", "anormal", "pressión", "tecla", "micromovimiento", "interruptor", "control", "ventanas", "detener", "pistola"],
+          "content":[109,103]
+        },
+        {
+          "sub":"Método de carga",
+          "keywords":["Comprobación carga, cargador, condiciones anormales, rotura carcasa, desgaste cable, óxido enchufe, materias extrañas, dispositivo conexión carga, suelto, agua, puerto carga, terminal metal, oxidado, corroído, cortocircuito, descarga eléctrica, carga CA portátil doméstica, Descripción equipo, vehículo, toma corriente, norma nacional, línea, protección, enchufe alimentación, pistola carga, cable carga, estándar nacional, Especificación equipo, Tiempo carga, seguridad carga, Temperatura ambiente, almacenamiento, maletero, neumáticos, modifique, desmonte, repare cargador, cables adicionales, adaptadores, convertidores, cable regleta, multicontactos, alimentación doméstica, suave, capa aislamiento, pistola carga desconectados, cable conexión carga, carga CC, estaciones carga específicas, configuración, tiempo carga programada, cuenta regresiva, cancelar carga programada, configuración remota, Servicio-E BYD."],
+          "content":[114,123]
+        },
+        {
+          "sub":"Función de carga inteligente",
+          "keywords": ["administrador", "batería", "hierro", "arranque", "capacidad", "demasiado", "baja", "cargar", "batería motriz", "carga inteligente", "almacenado", "energía", "paquete baterías motrices", "SOC", "disminuir", "ambiente baja temperatura", "conducción continua", "rendimiento", "carga CA", "mantenimiento temperatura inteligente", "sistema multimedia", "conexión", "período", "máximo", "atención", "temperatura ambiental", "nivel no máximo", "falla", "extracción pistola"],
+          "content":[123,123]
+        },
+        {
+          "sub":"Función de control de bloqueo eléctrico del puerto de carga",
+          "keywords":["antirrobo", "habilitado", "deshabilitado", "corriente", "bloqueado", "desbloqueado", "puerto de carga", "pistola de carga", "desbloqueo de emergencia", "vehículo"],
+          "content":[124,126]
+        },
+        {
+          "sub":"Configuración de modo de visualización de kilometraje de conducción continua",
+          "keywords":["cliente", "mejor", "experiencia", "vehículo", "configuración", "modo", "visualización", "kilometraje", "conducción", "defecto", "estándar", "configurar", "multimedia", "dinámico", "energía", "batería", "consumo", "promedio", "consejos", "cálculo", "anterior", "aumentará", "disminuirá", "aire acondicionado", "calentador", "cambio"],
+          "content":[126,126]
+        },
+        {
+          "sub":"Dispositivo de descarga",
+          "keywords":["vehículo", "función", "descarga", "carga", "VTOL", "advertencia", "prohibido", "contacto", "terminal", "metálico", "regleta", "tomacorriente", "condiciones", "olor", "fumar", "seguridad", "almacene", "producto", "maletero", "neumáticos", "dispositivo", "cable", "cargador", "daño", "atención", "potencia", "autonomía", "SOC", "marcha", "OFF", "usuario", "desenchufe", "equipo", "especificación", "tensión", "nominal", "guía", "operación", "conexión", "interruptor", "pistola", "corriente", "indicadora", "detener", "botón", "mecánico", "sacar", "almacenamiento", "descarga", "unifásica", "fuente", "alimentación", "enchufe", "seco", "limpio", "capacidad", "máxima"],
+          "content":[127,130]
+        }
+      ]
+    },
+    {
+      "sub":"Batería",
+      "childrens":[
+        {
+          "sub":"Batería de energía",
+          "keywords":["batería", "motriz", "energía", "cargar", "descargar", "fuente", "alimentación", "vehículo", "frenando", "rodando", "recuperación", "carrocería", "golpe", "recomendamos", "rendimiento", "condiciones", "etapa", "transición", "aceleración", "dispositivo", "VTOL", "capacidad", "temperatura", "carga", "potencia", "baja", "hora", "tiempo", "vehículo", "consumo", "cargador", "aire", "acondicionado", "kilometraje", "automía", "conducción", "factor", "viajar", "equipos", "alta", "potencia", "rendimiento", "tiempo", "servicio", "sistema", "control", "calentamiento", "experiencia", "estado", "uso", "ciclo", "semana", "primera", "vez", "SOC", "instrumento", "temperatura", "aire", "batería", "calor", "rendimiento", "aceleración", "continua", "garaje", "batería", "alquiler", "batería", "agua", "abundante", "incendio", "extintor", "base", "inflamables", "explosivos", "fuente", "fuego", "químicos", "peligrosos", "fuente", "calor", "sol", "carga", "refrigerante", "reciclaje"],
+          "content":[131,134]
+        },
+        {
+          "sub":"Batería de hierro de arranque",
+          "keywords":["Batería", "hierro", "arranque", "modos", "trabajo", "normal", "reposo", "consumo", "energía", "ultra", "protección", "bajo", "voltaje", "sistema", "vehículo", "modo", "capó", "marcha", "descarga", "batería", "capacidad", "carga", "inteligente", "usuario", "SOC", "rango", "autonomía", "instrumento", "falla", "fuente", "alimentación", "micro", "interruptor", "puerta", "relé", "sonido", "dada", "herramientas", "combustible", "plataforma", "plomo-ácido", "administrador", "conectores", "arnés"],
+          "content":[135,135]
+        }
+      ]
+    },
+    {
+      "sub":"Puntos principales de uso",
+      "childrens":[
+        {
+          "sub":"Período de rodaje",
+          "keywords":["ensamblaje", "potencia", "arrancar", "girar", "frecuencia", "comprobar", "ruido", "anormal", "conjunto", "eléctrico", "detener", "fuga", "refrigerante", "lubricante", "tren", "eléctrico", "adaptación", "primeros", "km", "ECO", "maneje", "vehículo", "conducción", "alta", "velocidad", "puntos", "principal", "prolongar", "eficientemente", "vida", "útil", "pedal", "acelerador", "exceso", "límite", "frenada", "emergencia", "remolque", "vehículos"],
+          "content":[136,136]
+        },
+        {
+          "sub":"Remolque",
+          "keywords":["vehículo", "transporte", "pasajeros", "seguridad", "sobrecarga", "arrastre", "remolcar", "remolque", "capacidad", "rendimiento", "frenado", "durabilidad", "conducción", "económica", "consumo", "energía", "comodidad", "equipo", "hábito", "garantías", "daños", "mal", "funcionamiento", "peso", "nominal", "gancho", "accidentes", "lesiones", "distancia", "vehículos", "velocidad", "presión", "neumáticos", "carga", "mantenimiento"],
+          "content":[136,137]
+        },
+        {
+          ""
+        }
+      ]
+    }
+  ]
 }
   ]
