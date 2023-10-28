@@ -1,3 +1,5 @@
+import { MessageType } from "../App";
+
 function Example({ content }: { content: String }) {
   return (
     <div className="bg-slate-400 p-5 rounded-md">
@@ -39,7 +41,7 @@ export function Message({ content, type }: { content: String; type: String }) {
   const align = isBot ? "justify-end" : "justify-start";
 
   return (
-    <div className={"flex " + align} >
+    <div className={"flex " + align}>
       <div className="bg-slate-400 p-5 rounded-md">
         <div>{content}</div>
       </div>
@@ -47,7 +49,13 @@ export function Message({ content, type }: { content: String; type: String }) {
   );
 }
 
-export default function Chat({ init }: { init: boolean }) {
+export default function Chat({
+  init,
+  history,
+}: {
+  init: boolean;
+  history: MessageType[];
+}) {
   if (init) {
     return preview();
   }
@@ -55,62 +63,9 @@ export default function Chat({ init }: { init: boolean }) {
   return (
     <div className="md:w-[100%] lg:w-[70%] m-auto">
       <div className="flex flex-col gap-5">
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="bot"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="user"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="bot"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="user"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="bot"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="user"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="bot"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="user"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="bot"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="user"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="bot"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="user"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="bot"
-        />
-        <Message
-          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
-          type="user"
-        />
+        {history.map((message, index) => (
+          <Message key={index} content={message.content} type={message.type} />
+        ))}
       </div>
     </div>
   );
