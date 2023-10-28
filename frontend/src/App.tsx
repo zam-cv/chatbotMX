@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from "uuid";
 
 export interface MessageType {
   content: string;
-  role: "bot" | "user";
+  role: "bot" | "user" | "system";
 }
 
 function App() {
@@ -71,6 +71,7 @@ function App() {
       if (id) localStorage.setItem("id", id);
 
       setHistory((prev) => [...prev, { content, role: "user" }]);
+      setHistory((prev) => [...prev, { content: "...", role: "bot" }]);
 
       if (inputRef.current) {
         inputRef.current.textContent = "";
@@ -84,6 +85,7 @@ function App() {
         .then(({ request }) => {
           setContent("");
           const json = JSON.parse(request.response);
+          setHistory((prev) => prev.slice(0, prev.length - 1));
           setHistory((prev) => [
             ...prev,
             { content: json.response.content, role: "bot" },
@@ -101,7 +103,7 @@ function App() {
         ref={historyParentRef}
         className="content overflow-auto h-full relative"
       >
-        <div ref={historyRef} className="chat bg-slate-200 overflow-auto p-5">
+        <div ref={historyRef} className="chat overflow-auto p-5">
           <Chat init={init} history={history} />
         </div>
         <div className="input">

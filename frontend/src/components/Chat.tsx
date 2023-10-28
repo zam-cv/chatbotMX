@@ -42,7 +42,7 @@ export function Message({ content, role }: { content: String; role: String }) {
 
   return (
     <div className={"flex " + align}>
-      <div className="bg-slate-400 p-5 rounded-md">
+      <div className="bg-slate-200 p-5 rounded-md max-w-[60%]">
         <div>{content}</div>
       </div>
     </div>

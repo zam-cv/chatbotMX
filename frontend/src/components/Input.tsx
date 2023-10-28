@@ -104,12 +104,12 @@ export default function Input({
   return (
     <div className="flex justify-center items-center w-full h-full p-5">
       <div
-        className={`lg:w-[50%] md:w-[80%] sm:w-[100%] w-[100%] grid grid-rows-1 ${buttons} gap-5`}
+        className={`lg:w-[55%] md:w-[90%] sm:w-[100%] w-[100%] grid grid-rows-1 ${buttons} gap-5`}
       >
         {!init ? (
           <span
             onClick={clear}
-            className="bg-slate-300 p-3 h-fit cursor-pointer"
+            className="bg-slate-200 p-3 h-fit cursor-pointer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ export default function Input({
             </svg>
           </span>
         ) : null}
-        <span className="bg-slate-300 p-3 h-fit cursor-pointer">
+        <span className="bg-slate-200 p-3 h-fit cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -145,7 +145,7 @@ export default function Input({
         </span>
         <div
           ref={inputRef}
-          className="bg-slate-300 p-3 outline-none overflow-auto"
+          className="bg-slate-200 p-3 outline-none overflow-auto"
           contentEditable
           onInput={(e) => setContent(e.currentTarget.textContent || "")}
           tabIndex={0}
@@ -154,7 +154,7 @@ export default function Input({
           placeholder="Escribe aquí..."
         ></div>
         <span
-          className="bg-slate-300 p-3 h-fit cursor-pointer"
+          className="bg-slate-200 p-3 h-fit cursor-pointer"
           onClick={!listening ? start : stop}
         >
           <svg
@@ -173,7 +173,7 @@ export default function Input({
           </svg>
         </span>
         <span
-          className="bg-slate-300 p-3 h-fit cursor-pointer"
+          className="bg-slate-200 p-3 h-fit cursor-pointer"
           onClick={sendMessage}
         >
           <svg
