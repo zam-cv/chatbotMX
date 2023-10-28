@@ -123,12 +123,15 @@ function App() {
   return (
     <div className="app h-[calc(100dvh)]">
       <header
-        className="p-3"
+        className="p-3 flex relative justify-center"
         style={{
           backgroundColor: "#e10298",
-          boxShadow: "1px -5px 20px 15px gray",
+          boxShadow: "#808080c4 1px -5px 20px 15px",
         }}
-      >
+      > 
+        <div className="absolute left-0" style={{ paddingLeft: "5px", marginLeft: "5px" }}>
+          <img src="/liverpool.png" width={40} height={30} />
+        </div>
         <h1 className="text-2xl text-center text-white font-bold">
           ChatBot MX
         </h1>
