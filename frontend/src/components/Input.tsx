@@ -1,14 +1,36 @@
-export default function Input() {
+export default function Input({
+  setContent,
+  sendMessage,
+  inputRef
+}: {
+  setContent: React.Dispatch<React.SetStateAction<string>>;
+  sendMessage: () => void;
+  inputRef: React.MutableRefObject<HTMLDivElement | null>;
+}) {
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+    if (event.code === "Enter") {
+      sendMessage();
+      event.preventDefault();
+    }
+  };
+
   return (
     <div className="flex justify-center items-center w-full h-full p-5">
       <div className="lg:w-[50%] md:w-[80%] sm:w-[100%] w-[100%] grid grid-rows-1 grid-cols-[1fr_auto] gap-5">
         <div
+          ref={inputRef}
           className="bg-slate-300 p-3 outline-none overflow-auto"
           contentEditable
+          onInput={(e) => setContent(e.currentTarget.textContent || "")}
+          tabIndex={0}
+          onKeyDown={handleKeyDown}
           style={{ overflowWrap: "anywhere", maxHeight: "150px" }}
           placeholder="Escribe aquí..."
         ></div>
-        <span className="bg-slate-300 p-3 h-fit">
+        <span
+          className="bg-slate-300 p-3 h-fit cursor-pointer"
+          onClick={sendMessage}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

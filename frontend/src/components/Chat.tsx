@@ -63,6 +63,54 @@ export default function Chat({ init }: { init: boolean }) {
           content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
           type="user"
         />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="bot"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="user"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="bot"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="user"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="bot"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="user"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="bot"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="user"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="bot"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="user"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="bot"
+        />
+        <Message
+          content="Hola, soy ChatBot MX, ¿en qué puedo ayudarte?"
+          type="user"
+        />
       </div>
     </div>
   );
