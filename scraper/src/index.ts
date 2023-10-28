@@ -1,5 +1,4 @@
 import puppeteer from 'puppeteer';
-import prompt_sync from 'prompt-sync';
 import fs from 'fs';
 declare const document: any;
 
