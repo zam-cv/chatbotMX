@@ -1,0 +1,82 @@
+[
+    {
+    "sub":"Prologo",
+    "keywords": ["BYD", "vehículos", "manual", "repuesto", "genuinas", "seguridad", "reglamentos", "matrícula", "Atención", "Advertencia"],
+    "content":[1,2]},
+  {
+  "sub":"Resumen del modelo",
+  "keywords":["YUAN PLUS EV", "BYD", "eléctrico", "baterías", "seguridad", "emisión cero", "protección ambiental", "alta tensión", "gestión de batería", "motor"],
+  "content":[3,3]},
+  {
+  "sub": "Seguridad",
+  "childrens": [
+    {
+      "sub": "Cinturón de seguridad",
+      "childrens": [
+        {
+        "sub":"Resumen de cinturones de seguridad",
+        "keywords":["cinturón de seguridad", "lesiones", "BYD", "protección", "ocupantes", "emergencia", "colisión", "niños", "dispositivo de pretensado", "bloqueo"],
+        "content":[16,17]},
+        {
+            "sub": "Uso del cinturón de seguridad",
+            "keywords":["cinturón de seguridad", "ajustador de altura", "lengüeta", "hebilla", "protección", "asiento", "desbloqueo", "ocupante", "abrochar", "accidente"],
+            "content": [17,21]}
+      ]
+    },
+    {
+  "sub":"Airbag",
+  "childrens":[
+  {
+    "sub":"Introducción de airbag",
+    "keywords":["sistema de airbag", "cinturones de seguridad", "despliegue", "protección adicional", "airbag frontal", "airbag lateral", "sistema de protección de seguridad pasiva", "cinturón de seguridad abrochado", "componentes del airbag", "alto voltaje"],
+    "content":[22,22]
+    },
+    {
+    "sub":"Airbags para conductor y pasajero delantero",
+    "keywords":["vehículo", "airbag del conductor", "unidad de control electrónico (ECU)", "colisión frontal", "desplegará", "sensor", "cinturón de seguridad", "colchón de aire", "protección suplementaria", "alta velocidad"],
+    "content":[23,24]
+    },
+    {
+    "sub":"Airbag lateral del asiento de la fila delantera",
+    "keywords":["vehículo", "airbag lateral", "respaldos de los asientos delanteros", "colisión lateral", "desplegará", "proteger el pecho", "cinturón de seguridad", "postura de sentado", "humedezca el asiento", "despliegue del airbag"],
+    "content":[24,25]
+    },
+    {
+  "sub":"Airbag de cortina lateral",
+  "keywords":["vehículo", "airbag de cortina", "panel lateral de la carrocería", "tablero protector", "colisión lateral", "desplegará", "proteger la cabeza", "cinturón de seguridad", "postura de sentado", "respaldo del asiento"],
+  "content":[25,25]
+    },
+    {
+  "sub":"Condiciones de activación de airbag",
+  "keywords":["airbag", "despliegue", "colisión", "vehículo", "choque", "tablero protector", "cinturón de seguridad", "advertencia", "lesión", "sistema", "zona sombreada", "BYD Auto", "unidad de control electrónico", "luz de advertencia", "averías", "mantenimiento", "roturas", "grietas", "daños"]
+  ,
+  "content":[26,31]
+    }]},
+    {
+    "sub":"Dispositivo de protección para niños",
+    "keywords":["dispositivo de protección para niños", "cinturón de seguridad", "asiento trasero", "accidente", "protección", "sujeción", "emergencia", "fabricante", "instalación", "instrucciones"]
+    ,
+    "content":[32,36]   
+},
+{
+"sub":"Sistema antirrobo",
+"keywords":["Sistema antirrobo", "alarma", "puertas", "llave inteligente", "intermitentes", "bloqueadas", "luz indicadora antirrobo", "capó", "maletero", "Arranque", "Parada"]
+,
+"content":[37,38]
+},
+{
+"sub":"Recogida y procesamiento de datos",
+"childrens":[
+    {
+      "sub":"Introducción de airbag",
+      "keywords":["sistema de airbag", "cinturones de seguridad", "despliegue", "protección adicional", "airbag frontal", "airbag lateral", "sistema de protección de seguridad pasiva", "cinturón de seguridad abrochado", "componentes del airbag", "alto voltaje"],
+      "content":[22,22]
+      }
+    ]
+  
+}
+]
+}
+]
+  
+    
