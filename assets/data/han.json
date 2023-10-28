@@ -1,0 +1,600 @@
+[
+    {
+      "sub":"Diligencia debida y corazón sincero",
+      "childrens": [{
+      "sub":"Servicios superiores y sinceros",
+      "keywords" : ["BYD", "Servicios superiores", "Sinceros", "Post-venta", "Diligencia", "Corazón sincero", "Supremo nivel", "Usuarios", "Vehículos", "Especialidad"],
+      "content": [1,1]}]},
+    {
+      "sub":"Prefacio",
+      "keywords":["BYD Han EV", "Manual", "Piezas de repuesto", "Garantía", "Licencia del vehículo", "Consejos", "Atención", "Advertencia", "Seguridad personal", "Reciclaje de baterías"],
+      "content":[2,3]},
+    {
+    "sub":"Vehiculo de pasajeros de BYD Han EV",
+    "keywords":["BYD Han EV", "Vehículo eléctrico puro", "Carrocería", "Paquete de baterías", "Sonido", "Batería de fosfato de hierro y litio", "Seguridad del sistema", "Unidad de gestión de batería", "Motor a velocidad alta", "Rendimiento de seguridad"],
+    "content":[4,4]},
+    {
+    "sub": "Seguridad",
+    "content": "",
+    "childrens": [
+      {
+        "sub": "Cinturón de seguridad",
+        "content": "",
+        "childrens": [
+          {
+          "sub":"Resumen de cinturones de seguridad",
+          "keywords":["Estudios", "Cinturones de seguridad", "Conducción", "Accidentes", "Lesiones", "Niños", "Función de bloqueo de emergencia (ELR)", "Seguridad", "Asiento", "Pretensión del cinturón de seguridad"],
+          "content":[18,18]},
+          {
+              "sub": "Uso del cinturón de seguridad",
+              "keywords":["Ajuste", "Cinturón de seguridad", "Posición", "Respaldo", "Hebilla", "Correa", "Ajustador de altura", "Desabrochar", "Sistema de alarma", "Conductor"],
+              "content": [19,22]}]
+      },
+      {
+    "sub":"Bolsa de aire",
+    "childrens":[
+    {
+      "sub":"Introducción de bolsa de aire",
+      "keywords":["bolsa de aire", "Sistema de retención auxiliar", "Colisión", "Cinturón de seguridad", "Airbags frontales", "Airbags laterales", "Protección", "Fundas de asiento", "Luz de advertencia", "Autodiagnóstico"],
+      "content":[24,25]},
+      {
+      "sub":"Bolsa de aire del conductor y del pasajero delantero",
+      "keywords":["Vehículo", "bolsa de aire", "Conductor", "Pasajero", "Fila delantera", "ECU", "Sistema de airbags", "Impacto", "Conducción", "Activación"],
+      "content":[25,26]},
+      {
+      "sub":"Bolsa de aire para las rodillas",
+      "content":[26,26]},
+      {
+    "sub":"Bolsas de aire laterales de los asientos",
+    "content":[26,27]},
+      {
+    "sub":"Bolsa de aire de cortina lateral",
+    "content":[27,28]},
+      {
+        "sub":"Condiciones de activación de la bolsa de aire de seguridad y precauciones",
+        "content":[28,35]}]},
+    {
+        "sub":" Dispositivo de protección para niños",
+        "childrens":[
+          {
+            "sub":"Dispositivo de protección para niños",
+            "content":[35,36]},
+          {
+          "sub":"Instalar dispositivo de protección para niños",
+          "content":[36,41]}
+        ]
+      },
+      {
+    "sub":"Sistema antirrobo",
+    "content":[41,41]
+    },
+      {
+        "sub":"RECOGIDA Y PROCESAMIENTO DE DATOS",
+        "content":[43,50]
+      }
+    ]
+    },{
+      "sub":"Instrumento combinado",
+      "childrens":[
+        {
+          "sub":"Vista del grupo de instrumentos",
+          "content":[50,51]
+        },{
+          "sub":"Indicador luminoso de instrumentos",
+          "content":[51,51]
+        }
+      ]
+    },
+    {
+      "sub":"Operación de controlador",
+      "childrens":[
+        {
+          "sub":"Puertas y llaves",
+          "childrens":[
+            {
+              "sub":"Llave",
+              "content":[62,64]
+            },
+            {
+              "sub":"Bloqueo /Desbloqueo de las puertas",
+              "content":[64,72]
+            },
+            {
+              "sub":"Sistema de entrada y arranque inteligente",
+              "content":[71,73]
+            },
+            {
+              "sub":"Bloqueo para niños",
+              "content":[73,73]
+            }
+          ]
+        },
+        {
+          "sub":"Asiento",
+          "childrens":[
+            {
+              "sub":"Notas sobre asiento",
+              "content":[75,76]
+            },
+            {
+              "sub": "Asientos delanteros",
+              "content":[76,79]
+            },
+            {
+              "sub":"Asientos de fila trasera.",
+              "keywords":["ajuste de posición", "palanca de ajuste", "asiento delantero y trasero", "manija de ajuste del respaldo", "subida y bajada de pasajeros", "fila media", "asiento de la fila central derecha"],
+              "content":[79.80]
+            }
+          ]
+        },
+        {
+          "sub":"Volante",
+          "childrens":[
+            {
+              "sub":"Volante",
+              "content":[80,86]
+            }
+          ]
+        },
+        {
+          "sub":"Interruptor",
+          "childrens":[
+            {
+              "sub":"Interruptor de luz",
+              "content":[86,91]
+            },
+            {
+              "sub":"Interruptor de limpiaparabrisas ",
+              "content":[81,93]
+            },
+            {
+              "sub":"Interruptor de combinación de la puerta delantera izquierda",
+              "content":[93,96]
+            },
+            {
+              "sub":"Interruptor de cambio de kilometraje",
+              "content":[96,96]
+            },
+            {
+              "sub":"Grupo de interruptor de modo.",
+              "content":[95,98]
+            },
+            {
+              "sub":"Interruptor de luz de advertencia de emergencia",
+              "content":[98,98]
+            },
+            {
+              "sub":"Interruptor de techo solar",
+              "content":[98,101]
+            },
+            {
+              "sub":"Interruptor de E-call",
+              "content":[101,102]
+            },
+            {
+              "sub":"IInterruptor de luz interior",
+              "content":[102,107]
+            }
+          ]
+        }
+      ]
+    },{
+      "sub":"Uso y conducción",
+      "childrens":[
+        {
+          "sub":"Instrucciones de carga",
+          "childrens":[
+            {
+              "sub":"Instrucciones de carga",
+              "content":[107,111]
+            },
+            {
+              "sub":"Método de carga",
+              "content":[111,120]
+            },
+            {
+              "sub":"Método de descarga",
+             "content":[120,123]
+            },
+            {
+              "sub":"Visualización del kilometraje de autonomía",
+              "content":[123,124]
+            }
+          ]
+        },
+        {
+          "sub":"Batería",
+          "childrens":[
+            {
+              "sub":"Batería de energía",
+              "content":[124,127]
+            },
+            {
+              "sub":"Batería de hierro de arranque",
+              "content":[127,128]
+            }
+          ]
+        },
+        {
+          "sub":"Puntos principales de uso",
+          "childrens":[
+            {
+              "sub":"Período de rodaje",
+              "content":[128,128]
+            },
+            {
+              "sub":"Remolque y arrastre",
+              "content":[128,128]
+            },
+            {
+              "sub":"Cómo ahorrar la energía y prolongar la vida útil del vehículo",
+              "content":[128,129]
+            },
+            {
+              "sub":"Transporte de maletas",
+              "content":[129,131]
+            },
+            {
+              "sub":"Vadeo del vehículo",
+              "content":[131,132]
+            },
+            {
+              "sub":"Prevención de incendios ",
+              "content":[132,134]
+            }
+          ]
+        },
+        {
+          "sub":"Inicio y conducción",
+          "childrens":[
+            {
+              "sub":"Arranque del vehículo",
+              "content":[134,135]
+            },
+            {
+              "sub":"Conducción de un vehículo",
+              "content":[135,137]
+            },
+            {
+              "sub":"Mecanismo de control de cambio de marchas",
+              "content":[137,139]
+            },
+            {
+              "sub":"Estacionamiento electrónico",
+              "content":[139,142]
+            },
+            {
+              "sub":"Estacionamiento automático (AVH)",
+              "content":[142,144]
+            },
+            {
+              "sub":"Consejos de conducción",
+              "content":[144,147]
+            },
+            {
+              "sub":"Crucero adaptativo",
+              "content":[147,152]
+            },
+            {
+              "sub":"Piloto Inteligente(ICC)",
+              "content":[152,154]
+            },
+            {
+              "sub":"Alerta de colisión predictiva* & Frenado de emergencia automático*",
+              "content":[154,160]
+            },
+            {
+              "sub":"Reconocimiento de Señales de Tráfico (TSR)",
+              "content":[160,163]
+            },
+            {
+              "sub":"Luz de carretera inteligente (HMA)*",
+              "content":[163,164]
+            },
+            {
+              "sub":"Asistencia de abandono de carril (LDA)*",
+              "content":[164,167]
+            },
+            {
+              "sub":"Asistencia de dirección de emergencia (ESA)*",
+              "content":[167,168]
+            },
+            {
+              "sub":"Sistema de asistencia de punto ciego*",
+              "content":[168,171]
+            },
+            {
+              "sub":"Pantalla Head-Up (HUD)",
+              "content":[171,171]
+            },
+            {
+              "sub":"Monitoreo de la presión de los neumáticos (TPMS)",
+              "content":[171,173]
+            },
+            {
+              "sub":"Sistema de tono de aviso de baja velocidad  (AVAS)",
+              "content":[173,175]
+            },
+            {
+              "sub":"Video panorámico",
+              "content":[175,177]
+            },
+            {
+              "sub":"Asistencia de estacionamiento",
+              "content":[177,180]
+            },
+            {
+              "sub":"Seguridad en la conducción",
+              "content":[180,187]
+            }
+          ]
+        },
+        {
+          "sub":" Descripción de otras funciones principales",
+          "childrens":[
+            {
+              "sub": "Retrovisor interior",
+              "content":[187,188]
+            }, {
+              "sub":"Retrovisores exteriores",
+              "content":[188,189]
+            }, {
+              "sub":"Escobillas de limpiaparabrisas",
+              "content":[189,190]
+            }, {
+              "sub":"Cadena anti-deslizante.",
+              "content":[190,194]
+            }
+          ]
+        }
+      ]
+    },
+    {
+    "sub":"Dispositivos interiores del vehículo",
+    "childrens":[
+      {
+        "sub":"Sistema de aire acondicionado",
+        "childrens":[
+          {
+            "sub":"Introducción de aire acondicionado",
+            "content":[194,201]
+          },
+          {
+            "sub":"Salida de aire del aire acondicionado",
+            "content":[201,201]
+          },
+          {
+          "sub":"Sistema de purificación ",
+            "content":[201,203]
+          },{
+          "sub":" Abrir el aire acondicionado con la APP de servicio en nube",
+          "content":[203,205]
+        }
+        ]
+      },
+      {
+        "sub":"Dispositivos de almacenamiento",
+        "childrens":[
+          {
+            "sub":"Caja auxiliar",
+            "content":[205,205]
+          },
+          {
+            "sub":"Caja de almamcenamiento para repozabrazos central",
+            "content":[205,206]
+          },
+          {
+            "sub":"Portavasos",
+            "content":[206,207]
+          },
+          {
+            "sub":"Caja de gafas",
+            "content":[207,208]
+          },
+          {
+            "sub":"Caja auxiliar en las puertas",
+            "content":[208,208]
+          },
+          {
+            "sub":"Caja de documentos",
+            "content":[208,208]
+          },{
+            "sub":"Bolsa de archivo",
+            "content":[208,209]
+          }
+        ]
+      },
+      {
+        "sub": "Otros dispositivos dentro del vehículo",
+        "childrens": [
+          {
+            "sub":"Parasol",
+            "content":[209,209]
+          },
+          {
+            "sub":"Mango de seguridad",
+            "content":[209,210]
+          },
+          {
+            "sub":"Fuente de alimentación de reserva de 12V",
+            "content":[210,210]
+          },
+          {
+            "sub":"Interfaz de USB",
+            "content":[210,211]
+          },
+          {
+            "sub":"Ranura para tarjeta SD",
+            "content":[211,211]
+          },
+          {
+            "sub":"Conector de alimentación",
+            "content":[211,212]
+          },
+          {
+            "sub":"Carga inalambrica de móvil",
+            "content":[212,215]
+          }
+        ]
+      },
+      {
+        "sub":"Sistema multimedia",
+        "childrens":[
+          {
+            "sub":"Panel de control de multimedia",
+            "content":[215,216]
+          },
+          {
+            "sub":"Widget(pequeña aplicación de escritorio)",
+            "content":[216,217]
+          },
+          {
+            "sub":"Configuración de idioma",
+            "content":[217,220]
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "sub":"Mantenimiento",
+      "childrens":[
+        {
+          "sub":" Instrucciones de mantenimiento",
+          "childrens":[
+            {
+              "sub":"Ciclo y contenido de mantenimiento",
+              "content":[220,225]
+            }
+          ]
+        },
+        {
+          "sub":"Mantenimiento regular",
+          "childrens":[
+            {
+              "sub":"Mantenimiento regular.",
+              "content":[225,226]
+            },
+            {
+              "sub":"Protección contra la corrosión del vehículo",
+              "content":[226,226]
+            },
+            {
+              "sub":"Consejos de mantenimiento de pintura",
+              "content":[226,227]
+            },
+            {
+              "sub":"Limpieza de la parte exterior de vehículo",
+              "content":[227,229]
+            },
+            {
+              "sub":"Limpieza de la parte interna de vehículo",
+              "content":[229,232]
+            }
+          ]
+        },
+        {
+          "sub":"Auto-mantenimiento",
+          "childrens":[
+              {
+                "sub":"Auto-mantenimiento",
+                "content":[232,234]
+              },
+              {
+                "sub":"Mantenimiento de quemacocos",
+                "content":[234,235]
+              },{
+                "sub":"Almacenamiento de vehículos",
+                "content":[235,236]
+              },{
+                "sub":"Capó",
+                "content":[236,237]
+              },{
+                "sub":"Sistema de refrigeración",
+                "content":[237,237]
+              },{
+                "sub":"Sistema de freno",
+                "content":[237,238]
+              },{
+                "sub":"Sistema de lavado",
+                "content":[238,238]
+              },{
+                "sub":"Sistema de aire acondicionado",
+                "content":[238,239]
+              },{
+                "sub":"Escobillas de limpiaparabrisas",
+                "content":[239,240]
+              },{
+                "sub":"Neumático",
+                "content":[240,244]
+              },{
+                "sub":"Fusible",
+                "content":[244,254]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "sub":"Cuando ocurre averías",
+      "childrens":[
+        {
+          "sub":" Cuando ocurren averías",
+          "childrens":[
+            {
+              "sub":"En caso de que la batería de llave inteligente está agotada",
+              "content":[254,254]
+            },{
+              "sub":"Apagado de emergencia del sistema ",
+              "content":[254,255]
+            },{
+              "sub":"Rescate de incendios del vehículo",
+              "content":[255,255]
+            },{
+              "sub":"Rescate en caso de la fuga de la batería",
+              "content":[255,256]
+            },{
+              "sub":"Rescate de calisión",
+              "content":[256,256]
+            },{
+              "sub":"Si el vehiculo necesita ser remolcado",
+              "content":[256,258]
+            },{
+              "sub":"En caso de la fuga de los neumáticos",
+              "content":[258,262]
+            },{
+              "sub":"Reemplazo de neumáticos",
+              "content":[262,268]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sub":"Especificaciones del vehículo",
+      "childrens":[
+        {
+          "sub":"Informaciones de datos",
+          "childrens":[
+            {
+              "sub":"Parámetros de vehículo",
+              "content":[268,271]
+            }
+          ]
+        },
+        {
+          "sub":"Información de notificación",
+          "childrens":[
+            {
+              "sub":"Identificación del vehículo ",
+              "content":[271,273]
+            },
+            {
+              "sub":"Etiqueta de advertencia",
+              "content":[273,273]
+            }
+          ]
+        }
+      ]
+    }
+    ]
