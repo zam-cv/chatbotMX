@@ -6,11 +6,8 @@ falla_direccion = ['volante', 'exclamación', 'advertencias','advertencia', 'gir
 estacionamiento_electrico = ['freno', 'mano', 'estacionamiento', 'tablero', 'activado', 'frenado', 'ilumina', 'sistema']
 advertencia_cinturon = ['cinturón', 'seguridad', 'vehículo', 'cinturones', 'abrochados','recordatorio', 'iluminado', 'detección']
 sobrecalentamiento_electromotor = ['calentamiento', 'asientos', 'sobrecalentamiento', 'avtivada', 'calor', 'calientan', 'motor', 'sobrecalentándose', 'refrigeración']
-sistema_energia = ['presión', 'neumáticos', 'baja', 'aire', ]
-
-
-
-
+luz_carretera = ['luces', 'altas', '"luces altas"', 'luminocidad', 'luz', 'ilumina', 'encendidas', 'encendido']
+falla_abs =['ABS', 'frenos', 'antibloqueo', 'Braking', 'sistema', 'bloqueen', 'freno']
 
 
 conta =0
@@ -21,6 +18,8 @@ conta4 =0
 conta5=0
 conta6 = 0
 conta7 = 0
+conta8= 0
+conta9= 0
 
 a = str(input())
 vec = []
@@ -42,8 +41,12 @@ for i in range(len(vec)):
         conta5 = conta5 +1
     if(vec[i].lower() in advertencia_cinturon):
         conta6 = conta6 +1
-    if(vec[i].lower() in advertencia_cinturon):
+    if(vec[i].lower() in sobrecalentamiento_electromotor):
         conta7 = conta7 +1
+    if(vec[i].lower() in luz_carretera):
+        conta8 = conta8 +1
+    if(vec[i].lower() in falla_abs):
+        conta9 = conta9 +1
         
 if(conta >= 3):
     print("problema de bateria")
@@ -60,7 +63,13 @@ elif(conta5 >= 3):
 elif(conta6 >= 3):
     print("advertencia de cinturon")	
 elif(conta7 >= 3):
-    print("sobrecalentamiento de motor")	
+    print("sobrecalentamiento de motor")
+elif(conta8 >= 3):
+    print("indicador de la luz de carretera")
+elif(conta9 >= 3):
+    print("Advertencia de falla ABS")
+else:
+    print("No fue posible reconocer la imagen, por favor proporciona una imagen mas clara o consulta el manual")
         
         
         
