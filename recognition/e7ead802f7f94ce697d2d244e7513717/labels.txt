@@ -1,0 +1,14 @@
+advertencia_temperatura
+Battery_Alert
+electronic_Parking
+icono de presion de llantas
+Indicador de la luz de carretera
+Luz de advertencia de abs
+Luz de advertencia de alarma de colisión predictiva (rojo)
+Luz de advertencia de cinturón de seguridad
+Luz de advertencia de falla del freno de estacionamiento
+Luz de advertencia de falla del sistema de energía
+luz direccional en el tablero
+Luz indicadora de identificación de señal de
+Luz indicadora OK
+Luz indicadora para conexión de carga de la batería motriz
