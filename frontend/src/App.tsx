@@ -83,7 +83,7 @@ function App() {
         inputRef.current.textContent = "";
       }
 
-      let image = ""
+      let image = "";
 
       if (imgRef.current) {
         const canvas = document.createElement("canvas");
@@ -97,7 +97,7 @@ function App() {
         ctx.drawImage(imgRef.current, 0, 0);
 
         const data = canvas.toDataURL("image/png");
-        const base64Image = data.split(',')[1];
+        const base64Image = data.split(",")[1];
         image = base64Image;
       }
 
@@ -122,7 +122,13 @@ function App() {
 
   return (
     <div className="app h-[calc(100dvh)]">
-      <header className="p-3" style={{ backgroundColor: "#e10298" }}>
+      <header
+        className="p-3"
+        style={{
+          backgroundColor: "#e10298",
+          boxShadow: "1px -5px 20px 15px gray",
+        }}
+      >
         <h1 className="text-2xl text-center text-white font-bold">
           ChatBot MX
         </h1>
@@ -131,7 +137,7 @@ function App() {
         ref={historyParentRef}
         className="content overflow-auto h-full relative"
       >
-        <div ref={historyRef} className="chat overflow-auto p-5">
+        <div ref={historyRef} className="chat flex justify-center overflow-auto p-5 pt-10">
           <Chat init={init} history={history} />
         </div>
         <div>

@@ -134,13 +134,13 @@ export default function Input({
   return (
     <div className="flex justify-center items-center w-full h-full p-5">
       <div
-        className={`lg:w-[55%] md:w-[90%] sm:w-[100%] w-[100%] grid grid-rows-1 ${buttons} gap-5`}
+        className={`lg:w-[55%] md:w-[90%] sm:w-[100%] w-[100%] grid grid-rows-1 rounded-lg p-2 ${buttons}`}
+        style={{
+          boxShadow: "rgba(128, 128, 128, 0.32) 0px 0px 20px 1px",
+        }}
       >
         {!init ? (
-          <span
-            onClick={clear}
-            className="bg-slate-200 p-3 h-fit cursor-pointer"
-          >
+          <span onClick={clear} className="p-3 h-fit cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -159,7 +159,7 @@ export default function Input({
         ) : null}
         <span
           onClick={loadImage}
-          className={`bg-slate-200 p-3 h-fit cursor-pointer ${
+          className={`p-3 h-fit cursor-pointer hover:text-blue-500 ${
             isLoad ? "text-blue-500" : ""
           }`}
         >
@@ -182,7 +182,7 @@ export default function Input({
         </span>
         <div
           ref={inputRef}
-          className="bg-slate-200 p-3 outline-none overflow-auto"
+          className="p-3 outline-none overflow-auto"
           contentEditable
           onInput={(e) => setContent(e.currentTarget.textContent || "")}
           tabIndex={0}
@@ -191,7 +191,7 @@ export default function Input({
           placeholder="Escribe aquí..."
         ></div>
         <span
-          className="bg-slate-200 p-3 h-fit cursor-pointer"
+          className="p-3 h-fit cursor-pointer hover:text-red-500"
           onClick={!listening ? start : stop}
         >
           <svg
@@ -210,7 +210,7 @@ export default function Input({
           </svg>
         </span>
         <span
-          className="bg-slate-200 p-3 h-fit cursor-pointer"
+          className="p-3 h-fit cursor-pointer hover:text-blue-500"
           onClick={sendMessage}
         >
           <svg
