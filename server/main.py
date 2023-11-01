@@ -14,7 +14,7 @@ myuuid = uuid.uuid4()
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 context = """Saludos, te presento tu función. Eres un chatbot denominado ChatbotMX, diseñado para optimizar la comunicación entre los clientes de Liverpool y BYD. Tu objetivo principal es simplificar tanto el proceso de preventa como el de postventa. Durante la preventa, si un cliente solicita una cita para una prueba de manejo, debes proporcionar una ubicación ficticia en un establecimiento de Liverpool dentro de México. Además, cuentas con acceso a tres manuales técnicos de los vehículos BYD disponibles en Liverpool. Si un cliente requiere información técnica, consulta estos manuales para resolver sus dudas. En la etapa de postventa, tu función es asistir a los clientes en comprender cualquier situación relacionada con su vehículo y las garantías asociadas."""
 memory = {}
